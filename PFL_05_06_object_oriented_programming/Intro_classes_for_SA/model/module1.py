@@ -11,7 +11,7 @@ class parsetting(object):
     '''
     class for a parametersetting.
     '''
-    
+
     def __init__(self):
         '''
         constructor that sets all default variable values
@@ -22,17 +22,17 @@ class parsetting(object):
         self.albedo = 0.1          # the albedo parameter
         self.amoc = 0              # the amoc parameter
         self.methane = 0.05        # the methane paramater
-        self.tide = 1.1            # the tidal parameter 
+        self.tide = 1.1            # the tidal parameter
         self.plastic = 0.5         # the plastic parameter (between -1 and 1)
         self.nn = 1e4              # number of times Tn has to be called
-    
+
     def Tn(self,n):
         '''
         n-th Chebychev at xi = plastic
         '''
         t = np.arccos(self.plastic)
         return  np.cos(n * t)
-    
+
     def solve(self):
         '''
         Calculate eigenvectors and eigenvalues of matrix A.
@@ -62,17 +62,17 @@ class parsetting(object):
         idx = eigvals.argsort()[::-1]
         eigvals = eigvals[idx]
         eigvecs = eigvecs[:,idx]
-        
+
         return (eigvals, eigvecs)
 
-    
+
     def plot_eigvals(self):
         '''
         method to plot eigenvalues in complex plane
         '''
 
         eigvals, eigvecs = self.solve()
-        
+
         plt.close()
         plt.figure(figsize=(9,5))
         plt.title('eigenvalues')
@@ -81,6 +81,3 @@ class parsetting(object):
         plt.ylabel('iR')
         plt.tight_layout()
         plt.show()
-        
-
-        

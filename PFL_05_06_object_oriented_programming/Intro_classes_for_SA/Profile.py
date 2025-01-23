@@ -44,6 +44,6 @@ p2.sort_stats('tottime').print_stats(10)
 # percall: is the quotient of cumtime divided by primitive calls
 # filename:lineno(function): provides the respective data of each function
 
-# When there are two numbers in the first column (for example 3/1), it means that the function recursed. 
-# The second value is the number of primitive calls and the former is the total number of calls. 
+# When there are two numbers in the first column (for example 3/1), it means that the function recursed.
+# The second value is the number of primitive calls and the former is the total number of calls.
 # Note that when the function does not recurse, these two values are the same, and only the single figure is printed.

@@ -10,13 +10,13 @@ It is bundled with two principal distributions:
 
 ### Miniconda
 
-Free minimal installer, it includes conda, Python, their dependencies on and a few others. __(~ 400 MB)__
+Free minimal installer, it includes conda, Python, their dependencies on and a few others. **(~ 400 MB)**
 
 https://conda.io/miniconda.html
 
 ### Anaconda
 
-It includes conda, Python and 100+ scientific packages and their dependencies. __(~ 3 GB)__
+It includes conda, Python and 100+ scientific packages and their dependencies. **(~ 3 GB)**
 
 https://www.anaconda.com/download/#macos
 
@@ -40,7 +40,6 @@ If you find yourself using the same channel often, then you might want to add it
 
 One of the most common channels is `conda_forge`.
 
-
 ## Conda on clusters
 
 ### Cartesius
@@ -51,28 +50,25 @@ to load the conda package manager on Cartesius, first load the easybuild module 
 
 `module load Miniconda3`
 
-
 ### Gemini and Hopf
 
 ... people are working on it ...
 
-
-
 # What is a conda environment and why you want to use it
 
-A folder or directory that __contains a specific collection of conda packages__ and their dependencies, so they can be maintained and __run separately without interference__ from each other. 
+A folder or directory that **contains a specific collection of conda packages** and their dependencies, so they can be maintained and **run separately without interference** from each other.
 
 Why conda environments are so convenient:
 
-- you want to share some code and __make everyone able to use it__
+- you want to share some code and **make everyone able to use it**
 
-- you want to share some code with the future self and __make yourself able to use it__
+- you want to share some code with the future self and **make yourself able to use it**
 
-- you want to use your code on a __different machine__
+- you want to use your code on a **different machine**
 
-- you are very fond of a package which exists only for a __specific version of python__
+- you are very fond of a package which exists only for a **specific version of python**
 
-- you __don't__ want to __mess up with your system__ python
+- you **don't** want to **mess up with your system** python
 
 ## Basic commands for environments
 
@@ -102,10 +98,9 @@ Why conda environments are so convenient:
 
 `conda install scipy=0.15.0
 
-- locate the directory for the conda environment (on Windows omit `echo`) 
+- locate the directory for the conda environment (on Windows omit `echo`)
 
 `echo $CONDA_PREFIX`
-
 
 ## Jupyter notebook in conda environments
 

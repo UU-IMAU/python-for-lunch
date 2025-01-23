@@ -4,7 +4,7 @@ import numpy as np
 def read_monthly_from_timeseries(filename, varname, ys=1980, ye=1999):
     """
     read data from a single CESM monthly timeseries file
-    
+
     filename  : string
     varname   : string
     ys        : starting year
@@ -12,12 +12,12 @@ def read_monthly_from_timeseries(filename, varname, ys=1980, ye=1999):
     """
     nyear = ye-ys+1
     print(varname, 'ys, ye, nyear', ys, ye, nyear)
-    
+
     if (type(filename) == list or type(filename) == tuple):
         ds = xr.open_mfdataset(filename)
     else:
         ds = xr.open_dataset(filename)
-        
+
     # shift time coordinate by one day
     # this is needed because CESM puts the time stamp at the very end of the
     # averaging period, see https://bb.cgd.ucar.edu/external-tools-dont-cesm-time-coordinate
@@ -27,16 +27,16 @@ def read_monthly_from_timeseries(filename, varname, ys=1980, ye=1999):
 
     var = ds[varname].sel(time=slice(str(ys), str(ye)))
     assert(len(var) == nyear * 12) # e.g. 20 years
-    
+
     dpm = np.array((31 ,28 ,31 ,30 ,31 ,30 ,31 ,31 ,30 ,31 ,30 ,31 )) # days per month, assuming no leap
     if (var.units == 'mm/s' or var.units == 'kg/m2/s'):
         # convert mm/s to total mm per month
         print("INFO: converting units from mm/s to mm for variable "+varname)
         var.values *= np.tile(dpm, nyear)[:,np.newaxis,np.newaxis] * 86400
         var.attrs['units'] = 'mm'
-    
+
     var = var.squeeze().load()
-        
+
     ds.close()
     return var
 
@@ -45,7 +45,7 @@ def read_monthly_from_timeseries(filename, varname, ys=1980, ye=1999):
 def read_clim_from_timeseries(filename, varname, clim_type='mean', ys=1980, ye=1999):
     """
     read single CESM timeseries file and compute the climatology (12 months)
-    
+
     filename  : string
     varname   : string
     ys        : starting year
@@ -53,7 +53,7 @@ def read_clim_from_timeseries(filename, varname, clim_type='mean', ys=1980, ye=1
     clim_type : type of climatology (mean / std)
     """
     nyear = ye-ys+1
-    
+
     var = read_monthly_from_timeseries(filename, varname, ys, ye)
     assert(len(var) == nyear * 12) # e.g. 20 years
 
@@ -63,14 +63,14 @@ def read_clim_from_timeseries(filename, varname, clim_type='mean', ys=1980, ye=1
         var = var.groupby('time.month').std('time')
     else:
         raise(ValueError("unknown clim_type : "+ str(clim_type)))
-        
+
     return var.squeeze()
 
 
 def read_yearmean_from_timeseries(filename, varname, ys=1980, ye=1999):
     """
     read CESM timeseries file and compute yearly means
-    
+
     filename  : string
     varname   : string
     ys        : starting year
@@ -78,10 +78,10 @@ def read_yearmean_from_timeseries(filename, varname, ys=1980, ye=1999):
     clim_type : type of climatology (mean / std)
     """
     nyear = ye-ys+1
-    
+
     var = read_monthly_from_timeseries(filename, varname, ys, ye)
     assert(len(var) == nyear * 12) # e.g. 20 years
-        
+
     var = var.groupby('time.year').mean('time')
     return var.squeeze()
 
@@ -95,21 +95,21 @@ def read_lon_lat_from_timeseries(filename):
     else:
         with xr.open_dataset(filename) as ds:
             return ds.lon, ds.lat
-        
-    
+
+
 
 def month_to_season(var, season, agg_type='mean'):
     """
     convert monthly variable (leading dimension 12) to seasonal mean
-    
+
     var      :  xarray DataArray
     season   :  string
     agg_type :  aggregation type (mean or sum)
-    
+
     returns: xarray DataArray
     """
     assert(len(var)==12)
-    
+
     if (agg_type == 'mean'):
         if (season == "ANN"):
             return var.mean(axis=0)
@@ -134,7 +134,3 @@ def month_to_season(var, season, agg_type='mean'):
             return var[[0,1,11]].sum(axis=0)
     else:
         raise ValueError('unknown agg_type: '+agg_type)
-    
-
-    
-    
