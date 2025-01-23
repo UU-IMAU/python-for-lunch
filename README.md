@@ -8,9 +8,9 @@ Every two weeks we host seminar-style meetings at IMAU (room 607) where anybody 
 
 | #   | date       | topic                            | speaker(s)          |
 | --- | ---------- | -------------------------------- | ------------------- |
-| 18  | 2020.11.17 | Performance - C-bindings         | Christian           |
-| 18  | 2020.11.03 | Performance - data access & Dask | Christian           |
-| 18  | 2020.10.20 | Performance - time & benchmark   | Christian           |
+| 21  | 2020.11.17 | Performance - C-bindings         | Christian           |
+| 20  | 2020.11.03 | Performance - data access & Dask | Christian           |
+| 19  | 2020.10.20 | Performance - time & benchmark   | Christian           |
 | 18  | 2020.02.19 | graph. user interface use case   | Heiko               |
 | 17  | 2020.02.05 | Matplotlib colormaps             | Reint               |
 | 16  | 2019.11.27 | teaching with Python             | Maarten             |
