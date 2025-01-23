@@ -11,7 +11,7 @@ class parsetting(object):
     '''
     class for a parametersetting.
     '''
-    
+
     def __init__(self):
         '''
         constructor that sets all default variable values
@@ -24,19 +24,19 @@ class parsetting(object):
         self.methane = 0.05        # the methane paramater
         self.tide = 1.1            # the tidal parameter
         self.nn = 1e4              # number of times Tn has to be called
-        
+
         self._plastic = 0.5        # the plastic parameter (between -1 and 1)
 
         self.Tn_dic = {}           # dictionary to speed up.
-    
 
 
-    #make plastic a property by putting the so-called decorator @property above the function (google for more info about decorators). 
+
+    #make plastic a property by putting the so-called decorator @property above the function (google for more info about decorators).
     #Note that plastic is now a function, but it is being called without parenthesis
     @property
     def plastic(self):
         return self._plastic  #simply returns the value of the variable _plastic
-    
+
     # the setter of the property plastic
     @plastic.setter
     def plastic(self,value):
@@ -81,17 +81,17 @@ class parsetting(object):
         idx = eigvals.argsort()[::-1]
         eigvals = eigvals[idx]
         eigvecs = eigvecs[:,idx]
-        
+
         return (eigvals, eigvecs)
 
-    
+
     def plot_eigvals(self):
         '''
         method to plot eigenvalues in complex plane
         '''
 
         eigvals, eigvecs = self.solve()
-        
+
         plt.close()
         plt.figure(figsize=(9,5))
         plt.title('eigenvalues')
@@ -100,6 +100,3 @@ class parsetting(object):
         plt.ylabel('iR')
         plt.tight_layout()
         plt.show()
-        
-
-        

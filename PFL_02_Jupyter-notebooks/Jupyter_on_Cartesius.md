@@ -1,6 +1,6 @@
 # using Jupyter's LabApp or NotebookApp on Cartesius
 
-*André Jüling (a.juling@uu.nl) | December 2018*
+_André Jüling (a.juling@uu.nl) | December 2018_
 
 ## Step 0.
 
@@ -46,7 +46,7 @@ where you 8888 is the port number that appears near the top of the jupyterlab ou
 
 in the browser on the local machine type
 
-`localhost:8895` 
+`localhost:8895`
 
 There will be a prompt for your account password. Then you can work with Jupyterlab on Cartesius.
 

@@ -33,7 +33,7 @@ class balloon(object):
         returns the area of the balloon
         '''
         return np.pi * self.radius**2
-    
+
     def show_balloon(self):
         '''
         method to visualize the balloon
@@ -45,12 +45,12 @@ class balloon(object):
         plt.ylim([-10, 10])
         plt.axis('off')
         plt.show()
-        
+
 
 class hotairballoon(balloon):
     def __init__(self,radius,color,basket_size):
         super().__init__(radius,color) # set radius and color from class above it.
-        self.basket_size = basket_size # set basket_size 
+        self.basket_size = basket_size # set basket_size
 
     def __str__(self):
         '''
@@ -78,7 +78,7 @@ class hotairballoon(balloon):
 
 # b1 = balloon(2,'darkgreen')   # b1 is called an instance of the balloon class
 # b2 = balloon(2,'darkorange')  # b2 is another instance of the balloon class
-# b3 = balloon(2,'crimson')     
+# b3 = balloon(2,'crimson')
 b1 = balloon()
 b1.radius = 3
 
@@ -103,5 +103,3 @@ print(b1)
 
 # ab = hotairballoon(10,'yellow',11)
 # print(ab)
-
-
