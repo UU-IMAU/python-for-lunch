@@ -1,0 +1,74 @@
+[tool.ruff]
+extend-exclude = [
+    # Ignore historic files
+    "PFL_00_introduction",
+    "PFL_01_virtual-environments",
+    "PFL_02_Jupyter-notebooks",
+    "PFL_03_Jupyter_examples",
+    "PFL_04_Xarray",
+    "PFL_05_06_object_oriented_programming",
+    "PFL_07_matplotlib_basics",
+    "PFL_08_plotting_advanced",
+    "PFL_10_defensive_programming",
+    "PFL_11_Pandas",
+    "PFL_12_Exceptions_and_ListComprehensions",
+    "PFL_13_Julia",
+    "PFL_14_Numpy",
+    "PFL_16_teaching",
+    "PFL_17_matplotlib_colors",
+    "PFL_18_GUI_LAL",
+    "PFL_19_Performance01_timing",
+    "PFL_20_Performance02_dask",
+    "PFL_21_Performance02_cbindings",
+]
+
+[tool.ruff.lint]
+select = [
+    "D",  # pydocstyle
+    "E",  # Error
+    "F",  # pyflakes
+    "I",  # isort
+    "B",  # Bugbear
+    "UP", # pyupgrade
+    "LOG", # logging
+    "ICN", # import conventions
+    "G", # logging-format
+    "RUF", # ruff
+    "ISC001", # single-line-implicit-string-concatenation
+]
+
+ignore = [
+    # line too long (82 > 79 characters)
+    "E501",
+    # Mutable class attributes should be annotated with `typing.ClassVar`
+    "RUF012",
+    # Consider `(slice(2), *block)` instead of concatenation
+    "RUF005",
+    # Prefer `next(iter(variable.items()))` over single element slice
+    "RUF015",
+    # Use `X | Y` in `isinstance` (see https://github.com/home-assistant/core/issues/123850)
+    "UP038",
+    # Missing docstring in public module
+    "D100",
+    # Missing docstring in public class
+    "D101",
+    # Missing docstring in public method
+    "D102",
+    # Missing docstring in public function
+    "D103",
+    # Missing docstring in public package
+    "D104",
+    # Missing docstring in magic method
+    "D105",
+    # Missing docstring in __init__
+    "D400",
+    # First line should be in imperative mood (requires writing of summaries)
+    "D401",
+    # First word of the docstring should not be `This`
+    "D404",
+    # 1 blank line required between summary line and description (requires writing of summaries)
+    "D205",
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "numpy"
