@@ -1,0 +1,20 @@
+name: Build test mkdocs site
+on:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v4
+        with:
+          version: "latest"
+      - run: uv run mkdocs build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Website
+          path: ./site
+          if-no-files-found: error
+          retention-days: 3
