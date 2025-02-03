@@ -1,17 +1,25 @@
-# Welcome to MkDocs
+# IMAU Python for Lunch Talks
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Welcome to the home of IMAU's Python for Lunch Talks.
 
-## Commands
+Below you can see a list of prior talks (reverse chronological order), as well as upcoming talks, and their resources. Discussion on upcoming talks can be found
 
-- `mkdocs new [dir-name]` - Create a new project.
-- `mkdocs serve` - Start the live-reloading docs server.
-- `mkdocs build` - Build the documentation site.
-- `mkdocs -h` - Print help message and exit.
+!!! note
 
-## Project layout
+    When adding new entries to the lists, do so in the following format
+    ```
+    - [YYYY-MM-DD | TALK_TITLE](./PFL_.../notebook.ipynb) by PRESENTER
+      - [🎥 Video](link to video), [🗂️ Supporting resources](github_link to folder on main branch)
+      - Abstract: ...
+    ```
+    or, for upcoming talks,
+    ```
+    - [YYYY-MM-DD | TALK_TITLE](github_link to issue/PR)
+      - Abstract: ...
+    ```
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Upcoming
+
+## Prior
+
+- [Archived talks](https://github.com/UU-IMAU/Python-for-lunch-Notebooks/blob/main/archived)
