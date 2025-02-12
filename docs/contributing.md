@@ -4,7 +4,7 @@ Here the process of creating a talk is detailed - from the talk's inception to t
 
 ## Proposing a talk
 
-Do you have a step in your software workflow that could be improved with the right tool? Or maybe you often find yourself thinking, "There has to be a better way to do this!" If so, share your thoughts by opening an issue on GitHub or posting in Teams (or reach out directly to the Python for Lunch organiser). Describe your workflow, the challenges you’re facing, and any ideas you have—we’d love to discuss and explore potential solutions!
+Do you have a step in your software workflow that could be improved with the right tool? Or maybe you often find yourself thinking, "There has to be a better way to do this!" If so, share your thoughts by opening an issue on GitHub or posting in Teams (or reach out directly to the Python for Lunch organiser). Describe your workflow, the challenges you’re facing, and any ideas you have - we’d love to discuss and explore potential solutions!
 
 [Post a GitHub issue]({{ repo_url }}/issues/new/choose){ .md-button }
 [Discuss in Teams]({{ teams_url }}){ .md-button }
@@ -15,7 +15,7 @@ So you've chosen a topic that you're interested in and want to write a talk? Tha
 
 !!! note
 
-    You don't need to be experienced in the topic to give the talk! In fact, you can provide a unique perspective as someone just learning. While learning the topic and writing the talk, there will be people able to provide suggestions and recommendations to help guide you.
+    You don't need to be experienced in the topic to give the talk! In fact, you can provide a unique perspective as someone just learning. While learning the topic and writing the talk, organisers will be able to provide suggestions, recommendations, and links to materials to help guide you.
 
 ### Style of talk
 
@@ -38,6 +38,6 @@ If you're running Python code, be sure to note in the Notebook which Python pack
 
 ## Finishing up
 
-!!! note
+Once you’ve prepared your talk materials, share them with an organizer for review. We can go through the feedback together in person, or if you’re comfortable with Git and GitHub, you can submit a pull request to the main branch. This allows for direct comments and collaborative revisions, ensuring a smooth and interactive review process!
 
-    TODO
+Once the talk material is finalised, it will be added to the website.
