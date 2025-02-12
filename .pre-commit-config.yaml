@@ -5,6 +5,7 @@ repos:
       - id: trailing-whitespace
       - id: end-of-file-fixer
       - id: check-yaml
+        exclude: "^mkdocs.*"
       - id: check-ast
       - id: check-json
         types: [text]
