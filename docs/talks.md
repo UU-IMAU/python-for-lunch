@@ -1,8 +1,6 @@
 # Talks
 
-Welcome to the home of IMAU's Python for Lunch Talks.
-
-Below you can see a list of prior talks (reverse chronological order), as well as upcoming talks, and their resources. Discussion on upcoming talks can be found
+Below you can see a list of prior talks (reverse chronological order), as well as upcoming talks, and their resources.
 
 <!--
 When adding new entries to the lists, do so in the following format
