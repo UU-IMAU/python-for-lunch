@@ -1,5 +1,6 @@
 site_name: IMAU Python for Lunch
-# site_url: https://mydomain.org/mysite
+site_url: https://uu-imau.github.io/python-for-lunch/
+repo_url: https://github.com/UU-IMAU/python-for-lunch
 theme:
   name: material
 
