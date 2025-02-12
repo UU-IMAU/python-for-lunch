@@ -1,4 +1,4 @@
-# Awesome resources
+# Resources
 
 !!! note
 
