@@ -9,7 +9,7 @@ Down the line we may explore more advanced/technical talks if there is sufficien
 As part of this refresh, we have this website!
 
 [Go to talks](./talks.md){ .md-button }
-[GitHub repo]({{ repo_url }}){ .md-button }
-["Python for Lunch" in Microsoft Teams]({{ teams_url }}){ .md-button }
+[GitHub repo]({{ repo_url }}){ .md-button target="\_blank" }
+["Python for Lunch" in Microsoft Teams]({{ teams_url }}){ .md-button target="\_blank" }
 
 Head across to the talks page to see prior and upcoming talks, or go to the "Python for Lunch" channel in the IMAU team on Microsoft Teams for more discussion!
