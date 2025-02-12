@@ -1,6 +1,6 @@
 # Resources
 
-Here is a list of great resources for your enjoyment (not necessarily Python!). Most of the resources are less technical - focusing on the technology from a scientist's point of view, rather than that of a computer scientist.
+Here is a list of great resources for your enjoyment (not necessarily Python!). The resources are less technical - focusing on the technology from a scientist's point of view, rather than that of a computer scientist.
 
 _The list is roughly sorted from most widely applicable at the top, to least widely applicable at the bottom._
 
