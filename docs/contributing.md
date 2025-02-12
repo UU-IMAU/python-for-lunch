@@ -4,7 +4,10 @@ Here the process of creating a talk is detailed - from the talk's inception to t
 
 ## Proposing a talk
 
-Is there a part of your workflow
+Do you have a step in your software workflow that could be improved with the right tool? Or maybe you often find yourself thinking, "There has to be a better way to do this!" If so, share your thoughts by opening an issue on GitHub or posting in Teams (or reach out directly to the Python for Lunch organiser). Describe your workflow, the challenges you’re facing, and any ideas you have—we’d love to discuss and explore potential solutions!
+
+[Post a GitHub issue]({{ repo_url }}/issues/new/choose){ .md-button }
+[Discuss in Teams]({{ teams_url }}){ .md-button }
 
 ## Writing and giving the talk
 
