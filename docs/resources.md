@@ -4,16 +4,16 @@ Here is a list of great resources for your enjoyment (not necessarily Python!). 
 
 _The list is roughly sorted from most widely applicable at the top, to least widely applicable at the bottom._
 
-!!! note
+<!--
+When adding new entries to the lists, do so in the following format
 
-    When adding new entries to the lists, do so in the following format
-    ```
-    - [Resource title](link)
-      - ...
-    ```
-    where `...` is the description (if needed).
+```
+- [Resource title](link)
+    - ...
+```
+where `...` is the description (if needed).
 
-    If the resource is paid, put `💰` at the beginning of the resource title.
+If the resource is paid, put `💰` at the beginning of the resource title. -->
 
 - [Python for Data Analysis, 3E by Wes McKinney](https://wesmckinney.com/book/)
   - A practical guide for scientists, teaching essential Python skills, pandas, and NumPy for efficient data manipulation, analysis, and visualization. Wes McKinney is also the creator of [Pandas](https://github.com/pandas-dev/pandas), the "go to" package for data analysis in Python.
