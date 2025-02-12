@@ -2,6 +2,10 @@
 
 Here the process of creating a talk is detailed - from the talk's inception to the final presentation. Anyone can contribute at any point along the way - no matter if you're giving the talk or not! Use the table of contents to navigate the different stages.
 
+!!! note
+
+    Just want to share a great, "scientist first" resource with colleagues? You can add it to our [Resources page](./resources.md)!
+
 ## Proposing a talk
 
 Do you have a step in your software workflow that could be improved with the right tool? Or maybe you often find yourself thinking, "There has to be a better way to do this!" If so, share your thoughts by opening an issue on GitHub or posting in Teams (or reach out directly to the Python for Lunch organiser). Describe your workflow, the challenges you’re facing, and any ideas you have - we’d love to discuss and explore potential solutions!
