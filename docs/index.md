@@ -10,6 +10,8 @@ Down the line we may explore more advanced/technical talks if there is sufficien
 
 As part of this refresh, we have this website!
 
+[![Solarpunk lunch](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDhkZWhxaHdyNm85dTVuZmNqODVsbHQxbjZmbWp6OWJudzdyMDY2aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/u5j0JHGEEOgidHTWgH/giphy.gif)](https://github.com/UU-IMAU/python-for-lunch/issues/15)
+
 [Go to talks](./talks.md){ .md-button }
 [GitHub repo]({{ repo_url }}){ .md-button target="\_blank" }
 ["Python for Lunch" in Microsoft Teams]({{ teams_url }}){ .md-button target="\_blank" }
