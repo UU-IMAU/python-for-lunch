@@ -22,8 +22,15 @@ or, for upcoming talks,
 ## Upcoming
 
 - [2025-03-06 | Data Science Template: Go from zero to hero with a fully initialised template research project (with sensible defaults) in a minute](https://github.com/UU-IMAU/python-for-lunch/issues/13)
-- ...
+- 2025-03-20 TBD
 - [2025-04-03 | Choosing beautiful (and accessible) colour maps](https://github.com/UU-IMAU/python-for-lunch/issues/12)
+- 2025-04-17 TBD
+- 2025-05-01 On break (EGU)
+- 2025-05-15 TBD
+- 2025-05-29 TBD
+- 2025-06-12 TBD
+- 2025-06-26 TBD
+- 2025-07-10 TBD
 
 ## Prior
 
