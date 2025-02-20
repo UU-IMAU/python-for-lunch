@@ -27,4 +27,5 @@ repos:
       rev: v3.4.2
       hooks:
           - id: prettier
+            exclude: "^docs/talks/assets/.*"
             args: ["--tab-width", "4"]
