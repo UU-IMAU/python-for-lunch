@@ -2,7 +2,7 @@
 
 Below you can see a list of prior talks (reverse chronological order), as well as upcoming talks, and their resources. You can click [here](https://github.com/UU-IMAU/python-for-lunch/issues?q=is%3Aissue+label%3Atalk-suggestion) for a list of all suggested talks.
 
-We try to have a talk every other Thursday.
+We try to have a talk every other Thursday at 12pm.
 
 <!--
 When adding new entries to the lists, do so in the following format
