@@ -30,7 +30,12 @@ or, for upcoming talks,
 - 2025-05-29 TBD
 - 2025-06-12 TBD
 - 2025-06-26 TBD
-- 2025-07-10 TBD
+- 2025-06-27 - 2025-09-01: Summer break (no talks)
+- 2025-09-04 TBD
+- 2025-09-18 TBD
+- 2025-10-02 TBD
+- 2025-10-16 TBD
+- 2025-10-30 TBD
 
 ## Prior
 
