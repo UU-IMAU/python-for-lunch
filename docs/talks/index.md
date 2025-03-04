@@ -27,7 +27,7 @@ _Titles are placeholder._
 
     - **Abstract:** We've all been there – eager to start a new research project, only to end up with a chaotic mess of notebooks like 'final_data_analysis_REALLY_FINAL_version6.ipynb' and data files scattered across our desktop like digital confetti. Fear not! In this lunch talk, I will introduce the "Cookie Cutter Data Science" template (CCDS for short) from Data Driven. It's a quick and painless way to set up your research project in under a minute—with a logical folder structure, sensible defaults, and zero regrets. We will also cover how to integrate it with Git for better version control (and fewer "final" versions). Whether you're handling climate model outputs, wrestling with observational data, or training a machine learning model, this template will save you from future headaches - and impress your collaborators with your beautifully organized project.
 
-- 2025-03-20 TBD
+- 2025-03-20 | "Python tidbits: Small Python packages and tips you wish you knew about yesterday" by Nick Hodgskin [(:material-github: Discussion)](https://github.com/UU-IMAU/python-for-lunch/issues/21)
 - 2025-04-03 | "Choosing beautiful (and accessible) colour maps" by Miriam Sterl [(:material-github: Discussion)](https://github.com/UU-IMAU/python-for-lunch/issues/12)
 - 2025-04-17 TBD
 - 2025-05-01 On break (EGU)
