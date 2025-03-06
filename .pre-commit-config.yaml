@@ -14,14 +14,17 @@ repos:
       rev: v0.8.6
       hooks:
           - id: ruff
+            exclude: "^docs/talks/assets/.*"
             name: ruff lint (.py)
             args: [--fix, --show-fixes]
             types_or: [python]
           - id: ruff
+            exclude: "^docs/talks/assets/.*"
             name: ruff isort (.ipynb)
             args: [--select, I, --fix]
             types_or: [jupyter]
           - id: ruff-format
+            exclude: "^docs/talks/assets/.*"
             types_or: [python, jupyter]
     - repo: https://github.com/rbubley/mirrors-prettier # Update mirror as official mirror is deprecated
       rev: v3.4.2
