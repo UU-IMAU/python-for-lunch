@@ -23,7 +23,7 @@ or, for upcoming talks,
 
 _Titles are placeholder._
 
-- ~~2025-03-20~~ **2025-03-27** | "Python tidbits: Small Python packages and tips you wish you knew about yesterday" by Nick Hodgskin ([:material-file-document: Notebook](./python-tidbits.ipynb), [:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/21))
+- 2025-03-27 | "Python tidbits: Small Python packages and tips you wish you knew about yesterday" by Nick Hodgskin ([:material-file-document: Notebook](./python-tidbits.ipynb), [:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/21))
 - 2025-04-03 | "Choosing beautiful (and accessible) colour maps" by Miriam Sterl [(:material-github: Discussion)](https://github.com/UU-IMAU/python-for-lunch/issues/12)
 - 2025-04-17 TBD
 - 2025-05-01 On break (EGU)
