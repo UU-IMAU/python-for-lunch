@@ -24,13 +24,13 @@ or, for upcoming talks,
 _Titles are placeholder._
 
 - 2025-03-27 | "Python tidbits: Small Python packages and tips you wish you knew about yesterday" by Nick Hodgskin ([:material-file-document: Notebook](./python-tidbits.ipynb), [:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/21))
-- 2025-04-03 | "Choosing beautiful (and accessible) colour maps" by Miriam Sterl [(:material-github: Discussion)](https://github.com/UU-IMAU/python-for-lunch/issues/12)
+- 2025-04-03 Normal lunch talk
 - 2025-04-17 TBD
 - 2025-05-01 On break (EGU)
 - 2025-05-15 TBD
 - 2025-05-29 TBD
 - 2025-06-12 TBD
-- 2025-06-26 TBD
+- 2025-06-26 | "Choosing beautiful (and accessible) colour maps" by Miriam Sterl [(:material-github: Discussion)](https://github.com/UU-IMAU/python-for-lunch/issues/12)
 - 2025-06-27 - 2025-09-01: Summer break (no talks)
 - 2025-09-04 TBD
 - 2025-09-18 TBD
