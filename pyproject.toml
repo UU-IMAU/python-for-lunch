@@ -33,6 +33,7 @@ extend-exclude = [
     "PFL_19_Performance01_timing",
     "PFL_20_Performance02_dask",
     "PFL_21_Performance02_cbindings",
+    "docs/talks/python-tidbits.ipynb"
 ]
 
 [tool.ruff.lint]

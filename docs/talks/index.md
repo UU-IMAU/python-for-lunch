@@ -23,7 +23,6 @@ or, for upcoming talks,
 
 _Titles are placeholder._
 
-- 2025-03-27 | "Python tidbits: Small Python packages and tips you wish you knew about yesterday" by Nick Hodgskin ([:material-file-document: Notebook](./python-tidbits.ipynb), [:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/21))
 - 2025-04-03 Normal lunch talk
 - 2025-04-17 TBD
 - 2025-05-01 On break (EGU)
@@ -50,5 +49,10 @@ _Titles are placeholder._
     - [:octicons-video-16: Recording](https://youtu.be/Og9Wrppp_yg), [:material-presentation-play: Slideshow](./assets/06032025%20-%20CCDS/DataScienceTemplate-6March25.pdf), [:material-file-document: CCDS Documentation](https://cookiecutter-data-science.drivendata.org/), [:material-folder: Showcase Example](https://github.com/UU-IMAU/python-for-lunch/blob/main/docs/talks/assets/06032025%20-%20CCDS/project_icesheetmelt), [:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/13)
 
     - **Abstract:** We've all been there – eager to start a new research project, only to end up with a chaotic mess of notebooks like 'final_data_analysis_REALLY_FINAL_version6.ipynb' and data files scattered across our desktop like digital confetti. Fear not! In this lunch talk, I will introduce the "Cookie Cutter Data Science" template (CCDS for short) from Data Driven. It's a quick and painless way to set up your research project in under a minute—with a logical folder structure, sensible defaults, and zero regrets. We will also cover how to integrate it with Git for better version control (and fewer "final" versions). Whether you're handling climate model outputs, wrestling with observational data, or training a machine learning model, this template will save you from future headaches - and impress your collaborators with your beautifully organized project.
+
+- **2025-03-27 | "Python Tidbits: Small Python tips, tricks, and packages you wish you knew about yesterday" by Nick Hodgskin**
+
+    - [:material-file-document: Notebook](docs/talks/python-tidbits.ipynb), [:material-download: Notebook Download](https://github.com/UU-IMAU/python-for-lunch/blob/main/docs/talks/python-tidbits.ipynb), [(:material-github: Discussion)](https://github.com/UU-IMAU/python-for-lunch/issues/21)
+    - **Abstract:** Sometimes the most impactful, timesaving features of a programming language are small tips, tricks, and patterns that you pick up along the way. When you finally come across them, you're left thinking "if only I knew about this earlier!". In this talk, we'll go through many of these lesser-known Python tricks - most of which are built directly into the Python language or standard library – to supercharge your Python skills. This talk will be fast paced covering a wide range of features, focusing on "tidbits" that can be explained in a few minutes each.
 
 - [Archived talks](https://github.com/UU-IMAU/Python-for-lunch-Notebooks/blob/main/archived)
