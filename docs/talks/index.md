@@ -23,7 +23,7 @@ or, for upcoming talks,
 
 _Titles are placeholder._
 
-- 2025-04-17 | "Conda Environments: A tool for reproducible, collaborative, and portable research" by Nick Hodgskin [(:material-github: Discussion)](https://github.com/UU-IMAU/python-for-lunch/issues/26)
+- 2025-04-17 | "Conda Environments: A tool for reproducible, collaborative, and portable research" by Nick Hodgskin [(:material-github: Discussion)](https://github.com/UU-IMAU/python-for-lunch/issues/26), [:material-presentation-play: Slideshow](./assets/20250417%20-%20Conda/index.html)
     - Abstract: Every research project has different requirements. In software this comes in the form of different software dependencies. As we get involved with different research projects, we must manage these different (perhaps conflicting) dependencies - which can be an absolute nightmare if you don't have the right tools! In this talk we go over Conda environments which allow us to isolate dependencies so that we can work in isolated sandboxes for each of our projects. We can easily share these environments, whether it be with collaborators, with readers of your article, or if you want the same environment on your machine and on HPC. Conda environments are one of the key parts of reproducible research. At the end of this talk we also take a brief look at Pixi, a modern alternative to Conda environments which is picking up steam.
 - 2025-05-01 On break (EGU)
 - 2025-05-15 TBD
