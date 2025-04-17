@@ -23,8 +23,6 @@ or, for upcoming talks,
 
 _Titles are placeholder._
 
-- 2025-04-17 | "Conda Environments: A tool for reproducible, collaborative, and portable research" by Nick Hodgskin [(:material-github: Discussion)](https://github.com/UU-IMAU/python-for-lunch/issues/26), [:material-presentation-play: Slideshow](./assets/20250417%20-%20Conda/index.html)
-    - Abstract: Every research project has different requirements. In software this comes in the form of different software dependencies. As we get involved with different research projects, we must manage these different (perhaps conflicting) dependencies - which can be an absolute nightmare if you don't have the right tools! In this talk we go over Conda environments which allow us to isolate dependencies so that we can work in isolated sandboxes for each of our projects. We can easily share these environments, whether it be with collaborators, with readers of your article, or if you want the same environment on your machine and on HPC. Conda environments are one of the key parts of reproducible research. At the end of this talk we also take a brief look at Pixi, a modern alternative to Conda environments which is picking up steam.
 - 2025-05-01 On break (EGU)
 - 2025-05-15 TBD
 - 2025-05-29 TBD
@@ -52,7 +50,12 @@ _Titles are placeholder._
 
 - **2025-03-27 | "Python Tidbits: Small Python tips, tricks, and packages you wish you knew about yesterday" by Nick Hodgskin**
 
-    - [:octicons-video-16: Recording](https://youtu.be/X-F0fFFW-wo),[:material-file-document: Notebook](docs/talks/python-tidbits.ipynb), [:material-download: Notebook Download](https://github.com/UU-IMAU/python-for-lunch/blob/main/docs/talks/python-tidbits.ipynb), [(:material-github: Discussion)](https://github.com/UU-IMAU/python-for-lunch/issues/21)
+    - [:octicons-video-16: Recording](https://youtu.be/X-F0fFFW-wo),[:material-file-document: Notebook](docs/talks/python-tidbits.ipynb), [:material-download: Notebook Download](https://github.com/UU-IMAU/python-for-lunch/blob/main/docs/talks/python-tidbits.ipynb), [:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/21)
     - **Abstract:** Sometimes the most impactful, timesaving features of a programming language are small tips, tricks, and patterns that you pick up along the way. When you finally come across them, you're left thinking "if only I knew about this earlier!". In this talk, we'll go through many of these lesser-known Python tricks - most of which are built directly into the Python language or standard library – to supercharge your Python skills. This talk will be fast paced covering a wide range of features, focusing on "tidbits" that can be explained in a few minutes each.
+
+- **2025-04-17 | "Conda Environments: A tool for reproducible, collaborative, and portable research" by Nick Hodgskin**
+
+    - [:octicons-video-16: Recording](https://youtu.be/KV0zTx_n3o0), [:material-presentation-play: Slideshow](./assets/20250417%20-%20Conda/index.html), [:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/26)
+    - **Abstract:** Every research project has different requirements. In software this comes in the form of different software dependencies. As we get involved with different research projects, we must manage these different (perhaps conflicting) dependencies - which can be an absolute nightmare if you don't have the right tools! In this talk we go over Conda environments which allow us to isolate dependencies so that we can work in isolated sandboxes for each of our projects. We can easily share these environments, whether it be with collaborators, with readers of your article, or if you want the same environment on your machine and on HPC. Conda environments are one of the key parts of reproducible research. At the end of this talk we also take a brief look at Pixi, a modern alternative to Conda environments which is picking up steam.
 
 - [Archived talks](https://github.com/UU-IMAU/Python-for-lunch-Notebooks/blob/main/archived)
