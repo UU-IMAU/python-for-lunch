@@ -24,7 +24,7 @@ or, for upcoming talks,
 _Titles are placeholder._
 
 - 2025-05-01 On break (EGU)
-- 2025-05-15 TBD
+- 2025-05-15 | "VS Code: Your All-in-One Scientific Coding Environment" by Willem Kroese
 - 2025-05-29 TBD
 - 2025-06-12 TBD
 - 2025-06-26 | "Choosing beautiful (and accessible) colour maps" by Miriam Sterl [(:material-github: Discussion)](https://github.com/UU-IMAU/python-for-lunch/issues/12)
