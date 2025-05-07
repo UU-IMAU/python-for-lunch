@@ -10,7 +10,7 @@ Down the line we may explore more advanced/technical talks if there is sufficien
 
 As part of this refresh, we have this website! Join our mailing list to stay informed about upcoming talks.
 
-[![Solarpunk lunch](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDhkZWhxaHdyNm85dTVuZmNqODVsbHQxbjZmbWp6OWJudzdyMDY2aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/u5j0JHGEEOgidHTWgH/giphy.gif)](https://github.com/UU-IMAU/python-for-lunch/issues/15)
+[![Solarpunk lunch](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDhkZWhxaHdyNm85dTVuZmNqODVsbHQxbjZmbWp6OWJudzdyMDY2aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/u5j0JHGEEOgidHTWgH/giphy.gif)](https://giphy.com/gifs/theline-thelineanimation-solarpunk-dear-alice-r3lL7v9H2aWhfD0IFs)
 
 [Join the mailing list!]({{ mailinglist_url }}){ .md-button target="\_blank" }
 [Go to talks](./talks.md){ .md-button }
