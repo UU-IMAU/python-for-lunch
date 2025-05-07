@@ -8,12 +8,11 @@ In these talks we'll go through some cool Python (and Python adjacent) tools, wo
 
 Down the line we may explore more advanced/technical talks if there is sufficient interest, but for the time-being it would be great to focus on the most impactful tools 💪
 
-As part of this refresh, we have this website!
+As part of this refresh, we have this website! Join our mailing list to stay informed about upcoming talks.
 
 [![Solarpunk lunch](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDhkZWhxaHdyNm85dTVuZmNqODVsbHQxbjZmbWp6OWJudzdyMDY2aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/u5j0JHGEEOgidHTWgH/giphy.gif)](https://github.com/UU-IMAU/python-for-lunch/issues/15)
 
+[Join the mailing list!]({{ mailinglist_url }}){ .md-button target="\_blank" }
 [Go to talks](./talks.md){ .md-button }
-[GitHub repo]({{ repo_url }}){ .md-button target="\_blank" }
-["Python for Lunch" in Microsoft Teams]({{ teams_url }}){ .md-button target="\_blank" }
 
 Head across to the talks page to see prior and upcoming talks, or go to the "Python for Lunch" channel in the IMAU team on Microsoft Teams for more discussion!

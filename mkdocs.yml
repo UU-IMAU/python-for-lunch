@@ -9,6 +9,7 @@ theme:
 extra:
     teams_url: https://teams.microsoft.com/l/channel/19%3A11ca5db51d9541e8be4f9714b4fd26e1%40thread.tacv2/Python%20for%20Lunch?groupId=d0097cb1-d2f5-432f-aa73-532bd153058f&tenantId=d72758a0-a446-4e0f-a0aa-4bf95a4a10e7
     repo_url: https://github.com/UU-IMAU/python-for-lunch
+    mailinglist_url: https://edu.nl/ydfu8
 
 markdown_extensions:
     - admonition
