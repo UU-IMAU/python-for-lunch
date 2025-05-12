@@ -23,8 +23,8 @@ or, for upcoming talks,
 
 _Titles are placeholder._
 
-- 2025-05-01 On break (EGU)
-- 2025-05-15 | "VS Code: Your All-in-One Scientific Coding Environment" by Willem Kroese
+- 2025-05-15 | "VS Code: Your All-in-One Scientific Coding Environment" by Willem Kroese [(:material-github: Discussion)](https://github.com/UU-IMAU/python-for-lunch/issues/29)
+    - Abstract: As scientists, our projects span multiple languages, diverse config/data files, notebooks, local scripting and cloud or cluster work. In this hands-on workshop you’ll discover how Visual Studio Code brings all these workflows under one roof. We’ll kick off with a quick tour of VS Code’s core features (command palette, terminal, workspace management), then dive into essential settings and extensions. You’ll pick up time-saving tips & shortcuts (multi-cursor edits, snippets, Zen Mode), get a peek at remote development over SSH, and watch GitHub Copilot assist your coding with suggestions. Finally, as a real-world bonus, I’ll show you how I turned VS Code into my local LaTeX editor. By the end, you’ll have a personalized toolkit of settings, extensions, and workflows to supercharge your VS Code experience. Bring your laptop if you want to follow along!
 - 2025-05-29 TBD
 - 2025-06-12 TBD
 - 2025-06-26 | "Choosing beautiful (and accessible) colour maps" by Miriam Sterl [(:material-github: Discussion)](https://github.com/UU-IMAU/python-for-lunch/issues/12)
