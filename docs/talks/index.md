@@ -23,8 +23,6 @@ or, for upcoming talks,
 
 _Titles are placeholder._
 
-- 2025-05-15 | "VS Code: Your All-in-One Scientific Coding Environment" by Willem Kroese [(:material-github: Discussion)](https://github.com/UU-IMAU/python-for-lunch/issues/29)
-    - Abstract: As scientists, our projects span multiple languages, diverse config/data files, notebooks, local scripting and cloud or cluster work. In this hands-on workshop you’ll discover how Visual Studio Code brings all these workflows under one roof. We’ll kick off with a quick tour of VS Code’s core features (command palette, terminal, workspace management), then dive into essential settings and extensions. You’ll pick up time-saving tips & shortcuts (multi-cursor edits, snippets, Zen Mode), get a peek at remote development over SSH, and watch GitHub Copilot assist your coding with suggestions. Finally, as a real-world bonus, I’ll show you how I turned VS Code into my local LaTeX editor. By the end, you’ll have a personalized toolkit of settings, extensions, and workflows to supercharge your VS Code experience. Bring your laptop if you want to follow along!
 - 2025-05-29 TBD
 - 2025-06-12 TBD
 - 2025-06-26 | "Choosing beautiful (and accessible) colour maps" by Miriam Sterl [(:material-github: Discussion)](https://github.com/UU-IMAU/python-for-lunch/issues/12)
@@ -57,5 +55,10 @@ _Titles are placeholder._
 
     - [:octicons-video-16: Recording](https://youtu.be/KV0zTx_n3o0), [:material-presentation-play: Slideshow](./assets/20250417%20-%20Conda/index.html), [:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/26)
     - **Abstract:** Every research project has different requirements. In software this comes in the form of different software dependencies. As we get involved with different research projects, we must manage these different (perhaps conflicting) dependencies - which can be an absolute nightmare if you don't have the right tools! In this talk we go over Conda environments which allow us to isolate dependencies so that we can work in isolated sandboxes for each of our projects. We can easily share these environments, whether it be with collaborators, with readers of your article, or if you want the same environment on your machine and on HPC. Conda environments are one of the key parts of reproducible research. At the end of this talk we also take a brief look at Pixi, a modern alternative to Conda environments which is picking up steam.
+
+- **2025-05-15 | "VS Code: Your All-in-One Scientific Coding Environment" by Willem Kroese**
+
+    - [:octicons-video-16: Recording](https://youtu.be/YRGjb4fEidg), [:material-presentation-play: Slideshow](./assets/20250515%20-%20VSCode/slides.pdf), [:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/29)
+    - **Abstract:** As scientists, our projects span multiple languages, diverse config/data files, notebooks, local scripting and cloud or cluster work. In this hands-on workshop you’ll discover how Visual Studio Code brings all these workflows under one roof. We’ll kick off with a quick tour of VS Code’s core features (command palette, terminal, workspace management), then dive into essential settings and extensions. You’ll pick up time-saving tips & shortcuts (multi-cursor edits, snippets, Zen Mode), get a peek at remote development over SSH, and watch GitHub Copilot assist your coding with suggestions. Finally, as a real-world bonus, I’ll show you how I turned VS Code into my local LaTeX editor. By the end, you’ll have a personalized toolkit of settings, extensions, and workflows to supercharge your VS Code experience. Bring your laptop if you want to follow along!
 
 - [Archived talks](https://github.com/UU-IMAU/Python-for-lunch-Notebooks/blob/main/archived)
