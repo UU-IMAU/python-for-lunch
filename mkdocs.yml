@@ -4,8 +4,7 @@ repo_url: https://github.com/UU-IMAU/python-for-lunch
 edit_uri: edit/main/docs/
 theme:
     name: material
-    icon:
-        logo: material/language-python
+    logo: assets/logo.png
     features:
         - content.action.edit
 
