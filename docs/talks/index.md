@@ -24,7 +24,7 @@ or, for upcoming talks,
 _Titles are placeholder._
 
 - 2025-05-29 No talk (Ascension Day)
-- 2025-06-12 TBD
+- 2025-06-12 | "A Roadmap to the Pangeo Ecosystem" by Nick Hodgskin [(:material-github: Discussion)](https://github.com/UU-IMAU/python-for-lunch/issues/34)
 - 2025-06-26 | "Choosing beautiful (and accessible) colour maps" by Miriam Sterl [(:material-github: Discussion)](https://github.com/UU-IMAU/python-for-lunch/issues/12)
 - 2025-06-27 - 2025-09-01: Summer break (no talks)
 - 2025-09-04 TBD
