@@ -28,7 +28,7 @@ _Titles are placeholder._
 - 2025-06-26 | "Choosing beautiful (and accessible) colour maps" by Miriam Sterl [(:material-github: Discussion)](https://github.com/UU-IMAU/python-for-lunch/issues/12)
 - 2025-06-27 - 2025-09-01: Summer break (no talks)
 - 2025-09-04 TBD
-- 2025-09-18 TBD
+- 2025-09-18 "Programming in Julia for Dynamical Systems" by Reyk Börner [(:material-github: Discussion)](https://github.com/UU-IMAU/python-for-lunch/issues/27)
 - 2025-10-02 TBD
 - 2025-10-16 "Open code from a journal editor’s perspective" by Erik van Sebille [(:material-github: Discussion)](https://github.com/UU-IMAU/python-for-lunch/issues/18)
 - 2025-10-30 TBD
