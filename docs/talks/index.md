@@ -23,8 +23,6 @@ or, for upcoming talks,
 
 _Titles are placeholder._
 
-- 2025-06-12 | "A Roadmap to the Pangeo Ecosystem" by Nick Hodgskin [(:material-github: Discussion)](https://github.com/UU-IMAU/python-for-lunch/issues/34)
-    - **Abstract:** We've all heard the name Pangeo - at a conference, or as a mention from the documentation of one of our tools - but what is it? Why are many climate scientists excited about it? It this talk we explore the Pangeo community and the ecosystem of packages it provides, going over its core mission and why it's needed in the next era of climate science where working with "big data" is becoming the norm. In this talk will give you a roadmap of the different packages and resources available in the Pangeo ecosystem - so that you can identify useful tools to investigate for your workflows and use-cases.
 - 2025-06-26 | "Choosing beautiful (and accessible) colour maps" by Miriam Sterl [(:material-github: Discussion)](https://github.com/UU-IMAU/python-for-lunch/issues/12)
 - 2025-06-27 - 2025-09-01: Summer break (no talks)
 - 2025-09-04 TBD
@@ -34,6 +32,10 @@ _Titles are placeholder._
 - 2025-10-30 TBD
 
 ## Prior
+
+- 2025-06-12 | "A Roadmap to the Pangeo Ecosystem" by Nick Hodgskin [(:material-github: Discussion)](https://github.com/UU-IMAU/python-for-lunch/issues/34)
+
+    - **Abstract:** We've all heard the name Pangeo - at a conference, or as a mention from the documentation of one of our tools - but what is it? Why are many climate scientists excited about it? It this talk we explore the Pangeo community and the ecosystem of packages it provides, going over its core mission and why it's needed in the next era of climate science where working with "big data" is becoming the norm. In this talk will give you a roadmap of the different packages and resources available in the Pangeo ecosystem - so that you can identify useful tools to investigate for your workflows and use-cases.
 
 - **2025-02-25 | "Git and GitHub: A time machine for every research project" by Nick Hodgskin**
 
