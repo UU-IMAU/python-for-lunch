@@ -1,0 +1,22 @@
+name: project_icesheetmelt
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - black
+  - flake8
+  - isort
+  - pip
+  - ipython
+  - jupyterlab
+  - matplotlib
+  - notebook
+  - numpy
+  - pandas
+  - scikit-learn
+  - xarray
+  - cmocean
+  - pip:
+    - python-dotenv
+    - mkdocs
+    - -e .
