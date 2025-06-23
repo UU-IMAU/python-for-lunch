@@ -30,6 +30,12 @@ _Titles are placeholder._
 - 2025-10-02 TBD
 - 2025-10-16 "Open code from a journal editor’s perspective" by Erik van Sebille [(:material-github: Discussion)](https://github.com/UU-IMAU/python-for-lunch/issues/18)
 - 2025-10-30 TBD
+- 2025-11-13 TBD
+- 2025-11-27 TBD
+- 2025-12-11 TBD
+- 2025-12-12 - 2026-02-04: Holiday Break
+- 2026-02-05 TBD
+- 2026-02-19 TBD
 
 ## Prior
 
