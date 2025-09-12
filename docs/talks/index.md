@@ -49,7 +49,7 @@ _Titles are placeholder._
 
 - **2025-03-27 | "Python Tidbits: Small Python tips, tricks, and packages you wish you knew about yesterday" by Nick Hodgskin**
 
-    - [:octicons-video-16: Recording](https://youtu.be/X-F0fFFW-wo),[:material-file-document: Notebook](docs/talks/python-tidbits.ipynb), [:material-download: Notebook Download](https://github.com/UU-IMAU/python-for-lunch/blob/main/docs/talks/python-tidbits.ipynb), [:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/21)
+    - [:octicons-video-16: Recording](https://youtu.be/X-F0fFFW-wo),[:material-file-document: Notebook](./python-tidbits.ipynb), [:material-download: Notebook Download](https://github.com/UU-IMAU/python-for-lunch/blob/main/docs/talks/python-tidbits.ipynb), [:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/21)
     - **Abstract:** Sometimes the most impactful, timesaving features of a programming language are small tips, tricks, and patterns that you pick up along the way. When you finally come across them, you're left thinking "if only I knew about this earlier!". In this talk, we'll go through many of these lesser-known Python tricks - most of which are built directly into the Python language or standard library – to supercharge your Python skills. This talk will be fast paced covering a wide range of features, focusing on "tidbits" that can be explained in a few minutes each.
 
 - **2025-04-17 | "Conda Environments: A tool for reproducible, collaborative, and portable research" by Nick Hodgskin**
