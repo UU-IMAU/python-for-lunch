@@ -25,7 +25,7 @@ _Titles are placeholder._
 
 - 2025-09-04 Technical Difficulties Round Table
     - **Abstract:** In our scientific workflows, we all encounter technical difficulties. How can I easily transfer data from a server to my computer? How can I easily iterate using a notebook on an HPC? How can I share data in a cross-institution collaboration? We'll use this session as a round table (or maybe "support group") where we can share our frustrations. Let's share our workflows, and voice the difficulties that we encounter so that we can learn from each other. This session will not be recorded so that people can share openly - an anonymised summary will be uploaded after discussion.
-- 2025-09-18 "Programming in Julia for Dynamical Systems" by Reyk Börner [(:material-github: Discussion)](https://github.com/UU-IMAU/python-for-lunch/issues/27)
+- 2025-09-18 TBD
 - 2025-10-02 TBD
 - 2025-10-16 "Open code from a journal editor’s perspective" by Erik van Sebille [(:material-github: Discussion)](https://github.com/UU-IMAU/python-for-lunch/issues/18)
 - 2025-10-30 TBD
