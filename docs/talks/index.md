@@ -23,8 +23,6 @@ or, for upcoming talks,
 
 _Titles are placeholder._
 
-- 2025-09-04 Technical Difficulties Round Table
-    - **Abstract:** In our scientific workflows, we all encounter technical difficulties. How can I easily transfer data from a server to my computer? How can I easily iterate using a notebook on an HPC? How can I share data in a cross-institution collaboration? We'll use this session as a round table (or maybe "support group") where we can share our frustrations. Let's share our workflows, and voice the difficulties that we encounter so that we can learn from each other. This session will not be recorded so that people can share openly - an anonymised summary will be uploaded after discussion.
 - 2025-09-18 TBD
 - 2025-10-02 TBD
 - 2025-10-16 "Open code from a journal editor’s perspective" by Erik van Sebille [(:material-github: Discussion)](https://github.com/UU-IMAU/python-for-lunch/issues/18)
@@ -37,11 +35,6 @@ _Titles are placeholder._
 - 2026-02-19 TBD
 
 ## Prior
-
-- **2025-06-12 | "A Roadmap to the Pangeo Ecosystem" by Nick Hodgskin**
-
-    - [:octicons-video-16: Recording](https://youtu.be/iPh3KxxcAjA), [:material-presentation-play: Slideshow](./assets/20250612%20-%20Pangeo%20Roadmap/index.html), [:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/34)
-    - **Abstract:** We've all heard the name Pangeo - at a conference, or as a mention from the documentation of one of our tools - but what is it? Why are many climate scientists excited about it? It this talk we explore the Pangeo community and the ecosystem of packages it provides, going over its core mission and why it's needed in the next era of climate science where working with "big data" is becoming the norm. In this talk will give you a roadmap of the different packages and resources available in the Pangeo ecosystem - so that you can identify useful tools to investigate for your workflows and use-cases.
 
 - **2025-02-25 | "Git and GitHub: A time machine for every research project" by Nick Hodgskin**
 
@@ -68,5 +61,15 @@ _Titles are placeholder._
 
     - [:octicons-video-16: Recording](https://youtu.be/YRGjb4fEidg), [:material-presentation-play: Slideshow](./assets/20250515%20-%20VSCode/slides.pdf), [:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/29)
     - **Abstract:** As scientists, our projects span multiple languages, diverse config/data files, notebooks, local scripting and cloud or cluster work. In this hands-on workshop you’ll discover how Visual Studio Code brings all these workflows under one roof. We’ll kick off with a quick tour of VS Code’s core features (command palette, terminal, workspace management), then dive into essential settings and extensions. You’ll pick up time-saving tips & shortcuts (multi-cursor edits, snippets, Zen Mode), get a peek at remote development over SSH, and watch GitHub Copilot assist your coding with suggestions. Finally, as a real-world bonus, I’ll show you how I turned VS Code into my local LaTeX editor. By the end, you’ll have a personalized toolkit of settings, extensions, and workflows to supercharge your VS Code experience. Bring your laptop if you want to follow along!
+
+- **2025-06-12 | "A Roadmap to the Pangeo Ecosystem" by Nick Hodgskin**
+
+    - [:octicons-video-16: Recording](https://youtu.be/iPh3KxxcAjA), [:material-presentation-play: Slideshow](./assets/20250612%20-%20Pangeo%20Roadmap/index.html), [:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/34)
+    - **Abstract:** We've all heard the name Pangeo - at a conference, or as a mention from the documentation of one of our tools - but what is it? Why are many climate scientists excited about it? It this talk we explore the Pangeo community and the ecosystem of packages it provides, going over its core mission and why it's needed in the next era of climate science where working with "big data" is becoming the norm. In this talk will give you a roadmap of the different packages and resources available in the Pangeo ecosystem - so that you can identify useful tools to investigate for your workflows and use-cases.
+
+- **2025-09-04 | "Technical Difficulties Round Table"**
+
+    - [:material-file-document: Summary Notes](./assets/20250904%20-%20technical-difficulties-summary.md)
+    - **Abstract:** In our scientific workflows, we all encounter technical difficulties. How can I easily transfer data from a server to my computer? How can I easily iterate using a notebook on an HPC? How can I share data in a cross-institution collaboration? We'll use this session as a round table (or maybe "support group") where we can share our frustrations. Let's share our workflows, and voice the difficulties that we encounter so that we can learn from each other. This session will not be recorded so that people can share openly - an anonymised summary will be uploaded after discussion.
 
 - [Archived talks](https://github.com/UU-IMAU/Python-for-lunch-Notebooks/blob/main/archived)
