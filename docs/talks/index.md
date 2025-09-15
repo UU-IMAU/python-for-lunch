@@ -23,7 +23,7 @@ or, for upcoming talks,
 
 _Titles are placeholder._
 
-- 2025-09-18 TBD
+- 2025-09-18 "Programming in Julia for Dynamical Systems" by Reyk Börner [(:material-github: Discussion)](https://github.com/UU-IMAU/python-for-lunch/issues/27)
 - 2025-10-02 TBD
 - 2025-10-16 "Open code from a journal editor’s perspective" by Erik van Sebille [(:material-github: Discussion)](https://github.com/UU-IMAU/python-for-lunch/issues/18)
 - 2025-10-30 TBD
