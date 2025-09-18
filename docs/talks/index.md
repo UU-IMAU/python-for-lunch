@@ -23,8 +23,7 @@ or, for upcoming talks,
 
 _Titles are placeholder._
 
-- 2025-09-18 "Programming in Julia: Tools for Dynamical Systems and Climate" by Reyk Börner [(:material-github: Discussion)](https://github.com/UU-IMAU/python-for-lunch/issues/27)
-- 2025-10-02 TBD
+- 2025-10-02 _No lunch talk_
 - 2025-10-16 "Open code from a journal editor’s perspective" by Erik van Sebille [(:material-github: Discussion)](https://github.com/UU-IMAU/python-for-lunch/issues/18)
 - 2025-10-30 TBD
 - 2025-11-13 TBD
@@ -71,5 +70,10 @@ _Titles are placeholder._
 
     - [:material-file-document: Summary Notes](./assets/20250904%20-%20technical-difficulties-summary.md)
     - **Abstract:** In our scientific workflows, we all encounter technical difficulties. How can I easily transfer data from a server to my computer? How can I easily iterate using a notebook on an HPC? How can I share data in a cross-institution collaboration? We'll use this session as a round table (or maybe "support group") where we can share our frustrations. Let's share our workflows, and voice the difficulties that we encounter so that we can learn from each other. This session will not be recorded so that people can share openly - an anonymised summary will be uploaded after discussion.
+
+- **2025-09-18 | "Programming in Julia: Tools for Dynamical Systems and Climate" by Reyk Börner**
+
+    - [:octicons-video-16: Recording](https://youtu.be/zGWr6hVwUQg), [:material-presentation-play: Slideshow](./assets/20250918%20-%20Julia/slides.pdf), [:material-github: GitHub Repo](https://github.com/reykboerner/juliaforlunch), [:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/27)
+    - **Abstract:** As a climate scientist, chances are you’re working with some model written in Fortran and analysing data using Python. While Fortran is fast but a bit clunky, Python’s simplicity can come at the cost of running slowly. Julia, an increasingly popular programming language, seeks to offer the best of both worlds by combining speed with an intuitive, Python-like syntax. In this seminar, I’ll share my experience with co-developing my first Julia package (CriticalTransitions.jl) as someone who used to write messy Python scripts. We’ll explore the basic use, pros and cons, and what functionality is out there for dynamical systems analysis and climate modelling.
 
 - [Archived talks](https://github.com/UU-IMAU/Python-for-lunch-Notebooks/blob/main/archived)
