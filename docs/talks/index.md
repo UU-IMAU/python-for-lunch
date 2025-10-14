@@ -23,8 +23,7 @@ or, for upcoming talks,
 
 _Titles are placeholder._
 
-- 2025-10-02 _No lunch talk_
-- 2025-10-16 "Open code from a journal editor’s perspective" by Erik van Sebille [(:material-github: Discussion)](https://github.com/UU-IMAU/python-for-lunch/issues/18)
+- 2025-10-16 _No lunch talk_
 - 2025-10-30 TBD
 - 2025-11-13 TBD
 - 2025-11-27 TBD
