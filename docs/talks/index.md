@@ -24,7 +24,7 @@ or, for upcoming talks,
 _Titles are placeholder._
 
 - 2025-10-16 _No lunch talk_
-- 2025-10-30 TBD
+- 2025-10-30 _No lunch talk_ (BBOS)
 - 2025-11-13 TBD
 - 2025-11-27 TBD
 - 2025-12-11 TBD
