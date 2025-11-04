@@ -23,10 +23,8 @@ or, for upcoming talks,
 
 _Titles are placeholder._
 
-- 2025-10-16 _No lunch talk_
-- 2025-10-30 _No lunch talk_ (BBOS)
 - 2025-11-13 "SLURM: Everything you need to know about HPC job management" by Lucas Esclapez [(:material-github: Discussion)](https://github.com/UU-IMAU/python-for-lunch/issues/30)
-- 2025-11-27 TBD
+- 2025-11-27 _No Python for Lunch (normal lunch talk instead!)_
 - 2025-12-11 TBD
 - 2025-12-12 - 2026-02-04: Holiday Break
 - 2026-02-05 TBD
