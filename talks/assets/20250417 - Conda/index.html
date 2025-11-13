@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title></title>
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/black.css" id="theme" />
+    <link rel="stylesheet" href="plugin/highlight/zenburn.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="plugin/customcontrols/style.css">
+
+
+
+    <script defer src="dist/fontawesome/all.min.js"></script>
+
+	<script type="text/javascript">
+		var forgetPop = true;
+		function onPopState(event) {
+			if(forgetPop){
+				forgetPop = false;
+			} else {
+				parent.postMessage(event.target.location.href, "app://obsidian.md");
+			}
+        }
+		window.onpopstate = onPopState;
+		window.onmessage = event => {
+			if(event.data == "reload"){
+				window.document.location.reload();
+			}
+			forgetPop = true;
+		}
+
+		function fitElements(){
+			const itemsToFit = document.getElementsByClassName('fitText');
+			for (const item in itemsToFit) {
+				if (Object.hasOwnProperty.call(itemsToFit, item)) {
+					var element = itemsToFit[item];
+					fitElement(element,1, 1000);
+					element.classList.remove('fitText');
+				}
+			}
+		}
+
+		function fitElement(element, start, end){
+
+			let size = (end + start) / 2;
+			element.style.fontSize = `${size}px`;
+
+			if(Math.abs(start - end) < 1){
+				while(element.scrollHeight > element.offsetHeight){
+					size--;
+					element.style.fontSize = `${size}px`;
+				}
+				return;
+			}
+
+			if(element.scrollHeight > element.offsetHeight){
+				fitElement(element, start, size);
+			} else {
+				fitElement(element, size, end);
+			}
+		}
+
+
+		document.onreadystatechange = () => {
+			fitElements();
+			if (document.readyState === 'complete') {
+				if (window.location.href.indexOf("?export") != -1){
+					parent.postMessage(event.target.location.href, "app://obsidian.md");
+				}
+				if (window.location.href.indexOf("print-pdf") != -1){
+					let stateCheck = setInterval(() => {
+						clearInterval(stateCheck);
+						window.print();
+					}, 250);
+				}
+			}
+	};
+
+
+        </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+# Conda Environments
+A tool for reproducible, collaborative, and portable research
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Reproducibility of research code
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+**Why?**
+- &shy;<!-- .element: class="fragment" data-fragment-index="1" -->Easier to continue future work
+- &shy;<!-- .element: class="fragment" data-fragment-index="2" -->Easier to collaborate with others
+- &shy;<!-- .element: class="fragment" data-fragment-index="3" -->Promotes open science
+- &shy;<!-- .element: class="fragment" data-fragment-index="4" -->Less emails to answer
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+**How?**
+- &shy;<!-- .element: class="fragment" data-fragment-index="1" -->Data
+- &shy;<!-- .element: class="fragment" data-fragment-index="2" -->Code
+- &shy;<!-- .element: class="fragment" data-fragment-index="3" -->Machine
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+*What if we could sandbox out project's dependencies?*
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Reproducible Python environments using Conda virtual environments
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Glossary
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+What is conda?
+- &shy;<!-- .element: class="fragment" data-fragment-index="1" -->a general package and environment manager
+- &shy;<!-- .element: class="fragment" data-fragment-index="2" -->command-line tool (handles package installation, version management, and environment management for any programming language)
+- &shy;<!-- .element: class="fragment" data-fragment-index="3" -->**core technology** powering Miniconda and Anaconda
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+What is Miniconda?
+
+- &shy;<!-- .element: class="fragment" data-fragment-index="1" -->Miniconda is a minimal installer that includes:
+	- Python
+	- conda
+- &shy;<!-- .element: class="fragment" data-fragment-index="2" -->A small number of essential packages
+- &shy;<!-- .element: class="fragment" data-fragment-index="3" -->Lightweight (~100MB)
+- &shy;<!-- .element: class="fragment" data-fragment-index="4" -->Great for developers who want minimal installation and complete control over which packages to install
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+What is Anaconda?
+
+- &shy;<!-- .element: class="fragment" data-fragment-index="1" -->Anaconda is a full distribution that includes:
+	- Everything in Miniconda
+	- 250+ pre-installed popular data science packages
+- &shy;<!-- .element: class="fragment" data-fragment-index="2" -->Anaconda Navigator (a GUI for managing environments and packages)
+- &shy;<!-- .element: class="fragment" data-fragment-index="3" -->Development tools like Spyder and Jupyter
+- &shy;<!-- .element: class="fragment" data-fragment-index="4" -->Many pre-compiled packages
+- &shy;<!-- .element: class="fragment" data-fragment-index="5" -->Large (~3 GB)
+- &shy;<!-- .element: class="fragment" data-fragment-index="6" -->Also the name of the company that created this software
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Let's get started with conda
+
+[Conda Documentation: "Getting Started"](https://docs.conda.io/projects/conda/en/stable/user-guide/getting-started.html)
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+That's pretty much most of the commands you'll be using!
+- create
+- activate
+- list
+- install (use [anaconda.org](anaconda.org) to find packages)
+- `conda remove package_name` to uninstall
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+```bash
+conda config --show channels
+
+# Adding conda-forge as a channel
+conda config --add channels conda-forge
+```
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Defining environments by prefix instead of environment names
+
+```
+# Creating and activating by environment name
+conda create --name myenv python=3.11 xarray
+conda activate myenv
+
+
+
+# Creating and activating by prefix (full path)
+conda create --prefix ./env python=3.11 xarray
+conda activate ./env
+```
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Why conda in scientific software?
+
+How is conda different to pip and normal Python environments?
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+- pip: Python-specific package manager
+	- &shy;<!-- .element: class="fragment" data-fragment-index="1" -->Only manages Python packages
+	- &shy;<!-- .element: class="fragment" data-fragment-index="2" -->Installs from Python Package Index (PyPI)
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+- conda:
+	- &shy;<!-- .element: class="fragment" data-fragment-index="1" -->Language-agnostic package manager
+	- &shy;<!-- .element: class="fragment" data-fragment-index="2" -->Can manage packages for any language (Python, R, C++, etc.)
+	- &shy;<!-- .element: class="fragment" data-fragment-index="3" -->The Python version itself is a dependency!
+	- &shy;<!-- .element: class="fragment" data-fragment-index="4" -->Can even manage system-level libraries and dependencies (e.g., ffmpeg)
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+_Don't mix them if you can avoid it_
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### How can we share conda environments?
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+Export, delete, re-create
+
+
+```bash
+# Print out installed packages, and save that to `environment.yml`
+conda env export > environment.yml
+
+# Delete my environment
+conda env remove -n myenv
+
+# Re-create
+conda env create -f environment.yml
+```
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+```bash
+conda env export
+
+conda env export --from-history
+```
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+```bash
+# dependencies: These are the packages we requested
+conda env export --from-history
+
+# lock-file: These are the packages that were resolved
+#            for your OS
+conda env export
+
+```
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+Up to you whether you save the lock file or the dependencies.
+
+*Don't manually edit a lock file to add packages.*
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+Hmmmm...
+- &shy;<!-- .element: class="fragment" data-fragment-index="1" -->`environment.yml` is convention, but isn't special (conda doesn't know about it)
+	- &shy;<!-- .element: class="fragment" data-fragment-index="2" -->Conda doesn't update the `environment.yml` (you have to export it)
+	- &shy;<!-- .element: class="fragment" data-fragment-index="3" -->conda doesn't know whether the `environment.yml` file is a lock file or dependency file
+- &shy;<!-- .element: class="fragment" data-fragment-index="4" -->the lock file could be better... it's not necessarily cross platform with Windows
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+Other projects try to bridge the gap by patching conda...
+
+https://github.com/conda/conda-lock
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Introducing [Pixi](https://pixi.sh/latest/)
+
+- 🧪 **Conda**: Leverage the existing conda ecosystem of packages.
+- 🔄 **Reproducibility**: Work in dedicated, isolated environments that can be easily recreated.
+- 🛠️ **Tasks**: Manage complex pipelines easily.
+- 🌐 **Multi Platform**: Ensure compatibility across Linux, macOS, Windows, and more.
+- ✨ **Modern**: Created in 2023 (conda was created in 2012)
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+*Environments are saved in the `.pixi` folder of your repo*
+
+```
+pixi init
+
+pixi add --platform win-64 linux-64 osx-64 osx-arm64
+pixi add python=3.10 xarray matplotlib jupyterlab
+# we now have a `pixi.toml` file, `pixi.lock` file,
+# and `.pixi` folder with the environment
+```
+```bash
+# instead of `conda activate ...`
+pixi shell
+```
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+Our Pixi tasks in Parcels (defined in `pyproject.toml` - a python specific config file)
+
+```toml
+[tool.pixi.tasks]
+tests = "pytest"
+tests-notebooks = "pytest -v -s --nbval-lax docs/examples"
+coverage = "coverage run -m pytest && coverage html"
+typing = "mypy parcels"
+pre-commit = "pre-commit run --all-files"
+docs = 'sphinx-autobuild --ignore "*.zip" docs docs/_build'
+```
+```
+pixi run docs
+```
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+More reading:
+
+[7 Reasons to Switch from Conda to Pixi](https://prefix.dev/blog/pixi_a_fast_conda_alternative)
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+My thoughts on Pixi:
+- &shy;<!-- .element: class="fragment" data-fragment-index="1" -->it's an option if you want it, or if you struggle with the pain points it addresses
+- &shy;<!-- .element: class="fragment" data-fragment-index="2" -->necessary? no
+</div></script></section></div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script src="plugin/zoom/zoom.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/math/math.js"></script>
+	<script src="plugin/mermaid/mermaid.js"></script>
+	<script src="plugin/chart/chart.min.js"></script>
+	<script src="plugin/chart/plugin.js"></script>
+	<script src="plugin/customcontrols/plugin.js"></script>
+
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+	  function isLight(color) {
+		let hex = color.replace('#', '');
+
+		// convert #fff => #ffffff
+		if(hex.length == 3){
+			hex = `${hex[0]}${hex[0]}${hex[1]}${hex[1]}${hex[2]}${hex[2]}`;
+		}
+
+		const c_r = parseInt(hex.substr(0, 2), 16);
+		const c_g = parseInt(hex.substr(2, 2), 16);
+		const c_b = parseInt(hex.substr(4, 2), 16);
+		const brightness = ((c_r * 299) + (c_g * 587) + (c_b * 114)) / 1000;
+		return brightness > 155;
+	}
+
+	var bgColor = getComputedStyle(document.documentElement).getPropertyValue('--r-background-color').trim();
+	var isLight = isLight(bgColor);
+
+	if(isLight){
+		document.body.classList.add('has-light-background');
+	} else {
+		document.body.classList.add('has-dark-background');
+	}
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath.MathJax3,
+		  RevealMermaid,
+		  RevealChart,
+		  RevealCustomControls,
+        ],
+
+
+    	allottedTime: 120 * 1000,
+
+		mathjax3: {
+			mathjax: 'plugin/math/mathjax/tex-mml-chtml.js',
+		},
+		markdown: {
+		  gfm: true,
+		  mangle: true,
+		  pedantic: false,
+		  smartLists: false,
+		  smartypants: false,
+		},
+
+		mermaid: {
+			theme: isLight ? 'default' : 'dark',
+		},
+
+		customcontrols: {
+			controls: [
+			]
+		},
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"width":960,"height":700,"margin":0.04,"controls":true,"progress":true,"slideNumber":false,"transition":"slide","transitionSpeed":"default"}, queryOptions);
+    </script>
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+
+  <!-- created with Advanced Slides -->
+</html>
