@@ -23,8 +23,6 @@ or, for upcoming talks,
 
 _Titles are placeholder._
 
-- 2025-11-13 | "Taming the Scheduler: Primer and Good Practices for Slurm on HPC Systems" by Lucas Esclapez [(:material-github: Discussion)](https://github.com/UU-IMAU/python-for-lunch/issues/30)
-    - Abstract: State-of-the-art climate research increasingly depends on high-performance computing (HPC) platforms to process large datasets and to run simulations of ever more complex models. Unlike personal computers, HPC systems provide a shared pool of computational resources accessed by many users simultaneously. Efficient and fair use of these resources is managed by a scheduler — a key component that can be both powerful and, for new users, somewhat opaque or frustrating. In this talk, I will introduce Slurm, one of the most widely used workload managers in the HPC community. I will explain how Slurm allocates resources, manages jobs, and maintains system efficiency. The session will also cover good practices for submitting, monitoring jobs and optimizing resource usage.
 - 2025-11-27 | _No Python for Lunch (normal lunch talk instead!)_
 - 2025-12-11 | "PyGMT: a powerful mapping alternative to cartopy" by Reint Fischer [(:material-github: Discussion)](https://github.com/UU-IMAU/python-for-lunch/issues/43)
 
@@ -76,5 +74,10 @@ _Titles are placeholder._
 
     - [:octicons-video-16: Recording](https://youtu.be/zGWr6hVwUQg), [:material-presentation-play: Slideshow](./assets/20250918%20-%20Julia/slides.pdf), [:material-github: GitHub Repo](https://github.com/reykboerner/juliaforlunch), [:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/27)
     - **Abstract:** As a climate scientist, chances are you’re working with some model written in Fortran and analysing data using Python. While Fortran is fast but a bit clunky, Python’s simplicity can come at the cost of running slowly. Julia, an increasingly popular programming language, seeks to offer the best of both worlds by combining speed with an intuitive, Python-like syntax. In this seminar, I’ll share my experience with co-developing my first Julia package (CriticalTransitions.jl) as someone who used to write messy Python scripts. We’ll explore the basic use, pros and cons, and what functionality is out there for dynamical systems analysis and climate modelling.
+
+- **2025-11-13 | "Taming the Scheduler: Primer and Good Practices for Slurm on HPC Systems" by Lucas Esclapez**
+
+    - [:octicons-video-16: Recording](https://youtu.be/TzG8FlcSoDA), [:material-presentation-play: Slideshow](./assets/20251113%20-%20SLURM/slides.pdf), [:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/30)
+    - **Abstract:** State-of-the-art climate research increasingly depends on high-performance computing (HPC) platforms to process large datasets and to run simulations of ever more complex models. Unlike personal computers, HPC systems provide a shared pool of computational resources accessed by many users simultaneously. Efficient and fair use of these resources is managed by a scheduler — a key component that can be both powerful and, for new users, somewhat opaque or frustrating. In this talk, I will introduce Slurm, one of the most widely used workload managers in the HPC community. I will explain how Slurm allocates resources, manages jobs, and maintains system efficiency. The session will also cover good practices for submitting, monitoring jobs and optimizing resource usage.
 
 - [Archived talks](https://github.com/UU-IMAU/Python-for-lunch-Notebooks/blob/main/archived)
