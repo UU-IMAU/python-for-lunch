@@ -23,11 +23,6 @@ or, for upcoming talks,
 
 _Titles are placeholder._
 
-- 2025-11-27 | _No Python for Lunch (normal lunch talk instead!)_
-- 2025-12-11 | "PyGMT: a powerful mapping alternative to cartopy" by Reint Fischer [(:material-github: Discussion)](https://github.com/UU-IMAU/python-for-lunch/issues/43)
-
-    - Abstract: PyGMT is the Python interface for the Generic Mapping Tools (GMT), a powerful tool to create beautiful maps. In this talk we can go over the most relevant examples of mapping features provided by this python package, an alternative to cartopy that provides high-quality cartographic standards and a very rich toolbox with many options.
-
 - 2025-12-12 - 2026-02-04: Holiday Break
 - 2026-02-05 | TBD
 - 2026-02-19 | TBD
