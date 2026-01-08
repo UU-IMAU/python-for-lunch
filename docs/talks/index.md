@@ -1,6 +1,6 @@
 # Talks
 
-Below you can see a list of prior talks (reverse chronological order), as well as upcoming talks, and their resources. You can click [here](https://github.com/UU-IMAU/python-for-lunch/issues?q=is%3Aissue+is%3Aopen+label%3Atalk-suggestion) for a list of all suggested talks.
+Below you can see a list of prior talks (chronological order), as well as upcoming talks, and their resources. You can click [here](https://github.com/UU-IMAU/python-for-lunch/issues?q=is%3Aissue+is%3Aopen+label%3Atalk-suggestion) for a list of all suggested talks.
 
 We try to have a talk every other Thursday at 12pm.
 
