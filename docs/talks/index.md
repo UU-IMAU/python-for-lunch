@@ -26,7 +26,8 @@ Abstract: ...
 
 _Titles are placeholder._
 
-- 2025-12-12 - 2026-02-04: Holiday Break
+- 2025-12-12 - 2026-01-21: Holiday Break
+- 2025-01-22 | "Xarray on HPC and in the cloud: Working with CMIP6 data" by Tim Herman [(:material-github: Discussion)](https://github.com/UU-IMAU/python-for-lunch/issues/47)
 - 2026-02-05 | TBD
 - 2026-02-19 | TBD
 - 2026-03-05 | TBD
