@@ -26,7 +26,8 @@ Abstract: ...
 
 _Titles are placeholder._
 
-- 2026-02-05 | TBD
+- 2026-02-05 | "Xarray Tutorial Series Part 1: Fundamentals of Xarray" by Nick Hodgskin
+    - Abstract: In the first instalment of this series, we follow the amazing Xarray Tutorial online resource to learn the fundamentals of Xarray. By the end of this talk, you will know the basic data structures in Xarray, be able to inspect DataArray and Dataset objects, as well as read and write netCDF files. Most importantly - this talk will start to show how Xarray based workflows can greatly simplify analysis and data processing of multidimensional climate data. There is no required pre-requisite knowledge to attend this talk. Whether you're an experienced Python user, or new to Python - everyone is welcome.
 - 2026-02-19 | TBD
 - 2026-03-05 | TBD
 - 2026-03-19 | TBD
