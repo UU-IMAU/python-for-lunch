@@ -98,7 +98,7 @@ _Titles are placeholder._
 
 ### 2025-01-22 | "Xarray on HPC and in the cloud: Working with CMIP6 data" by Tim Herman
 
-[:octicons-video-16: Recording](https://youtu.be/6msZRQ48qZo), [:material-presentation-play: Slideshow](./assets/20260122%20-%20Xarray-cloud/slides.pdf), [(:material-github: Discussion)](https://github.com/UU-IMAU/python-for-lunch/issues/47)
+[:octicons-video-16: Recording](https://youtu.be/6msZRQ48qZo), [:material-presentation-play: Slideshow](./assets/20260122%20-%20Xarray-cloud/slides.pdf), [:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/47)
 
 **Abstract:** The simulations of global climate models participating in CMIP6 provide a wealth of information but are challenging to analyse due to the wide variety of models and conventions and the large volume of data, especially when looking at higher resolution simulations or multiple simulation variants per model. Traditional workflows involve locally downloading CMIP6 data from ESGF servers or analysing data directly at those servers. With the introduction of CMIP6 data on Google Cloud, faster and more transparent cloud-based analyses are now also possible. Packages like xmip help analysing the data across models with different conventions in a structured way. In the In this talk I will explain the advantages of using cloud-based CMIP6 data and run you through a basic but neat demo workflow, based on examples available in the Pangeo Gallery and my own experiences.
 
