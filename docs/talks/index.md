@@ -26,8 +26,6 @@ Abstract: ...
 
 _Titles are placeholder._
 
-- 2025-12-12 - 2026-01-21: Holiday Break
-- 2025-01-22 | "Xarray on HPC and in the cloud: Working with CMIP6 data" by Tim Herman [(:material-github: Discussion)](https://github.com/UU-IMAU/python-for-lunch/issues/47)
 - 2026-02-05 | TBD
 - 2026-02-19 | TBD
 - 2026-03-05 | TBD
@@ -97,6 +95,12 @@ _Titles are placeholder._
 [:octicons-video-16: Recording](https://youtu.be/TzG8FlcSoDA), [:material-presentation-play: Slideshow](./assets/20251113%20-%20SLURM/slides.pdf), [:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/30)
 
 **Abstract:** State-of-the-art climate research increasingly depends on high-performance computing (HPC) platforms to process large datasets and to run simulations of ever more complex models. Unlike personal computers, HPC systems provide a shared pool of computational resources accessed by many users simultaneously. Efficient and fair use of these resources is managed by a scheduler — a key component that can be both powerful and, for new users, somewhat opaque or frustrating. In this talk, I will introduce Slurm, one of the most widely used workload managers in the HPC community. I will explain how Slurm allocates resources, manages jobs, and maintains system efficiency. The session will also cover good practices for submitting, monitoring jobs and optimizing resource usage.
+
+### 2025-01-22 | "Xarray on HPC and in the cloud: Working with CMIP6 data" by Tim Herman
+
+[:octicons-video-16: Recording](https://youtu.be/6msZRQ48qZo), [:material-presentation-play: Slideshow](./assets/20260122%20-%20Xarray-cloud/slides.pdf), [(:material-github: Discussion)](https://github.com/UU-IMAU/python-for-lunch/issues/47)
+
+**Abstract:** The simulations of global climate models participating in CMIP6 provide a wealth of information but are challenging to analyse due to the wide variety of models and conventions and the large volume of data, especially when looking at higher resolution simulations or multiple simulation variants per model. Traditional workflows involve locally downloading CMIP6 data from ESGF servers or analysing data directly at those servers. With the introduction of CMIP6 data on Google Cloud, faster and more transparent cloud-based analyses are now also possible. Packages like xmip help analysing the data across models with different conventions in a structured way. In the In this talk I will explain the advantages of using cloud-based CMIP6 data and run you through a basic but neat demo workflow, based on examples available in the Pangeo Gallery and my own experiences.
 
 ### Archived talks
 
