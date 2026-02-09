@@ -13,6 +13,6 @@ As part of this refresh, we have this website! Join our mailing list to stay inf
 [![Solarpunk lunch](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDhkZWhxaHdyNm85dTVuZmNqODVsbHQxbjZmbWp6OWJudzdyMDY2aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/u5j0JHGEEOgidHTWgH/giphy.gif)](https://giphy.com/gifs/theline-thelineanimation-solarpunk-dear-alice-r3lL7v9H2aWhfD0IFs)
 
 [Join the mailing list!]({{ mailinglist_url }}){ .md-button target="\_blank" }
-[Go to talks](./talks.md){ .md-button }
+[Go to talks](./talks/index.md){ .md-button }
 
 Head across to the talks page to see prior and upcoming talks, or go to the "Python for Lunch" channel in the IMAU team on Microsoft Teams for more discussion!
