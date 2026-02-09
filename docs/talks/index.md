@@ -26,8 +26,6 @@ Abstract: ...
 
 _Titles are placeholder._
 
-- 2026-02-05 | "Xarray Tutorial Series Part 1: Fundamentals of Xarray" by Nick Hodgskin
-    - Abstract: In the first instalment of this series, we follow the amazing Xarray Tutorial online resource to learn the fundamentals of Xarray. By the end of this talk, you will know the basic data structures in Xarray, be able to inspect DataArray and Dataset objects, as well as read and write netCDF files. Most importantly - this talk will start to show how Xarray based workflows can greatly simplify analysis and data processing of multidimensional climate data. There is no required pre-requisite knowledge to attend this talk. Whether you're an experienced Python user, or new to Python - everyone is welcome.
 - 2026-02-19 | TBD
 - 2026-03-05 | TBD
 - 2026-03-19 | TBD
@@ -102,6 +100,12 @@ _Titles are placeholder._
 [:octicons-video-16: Recording](https://youtu.be/6msZRQ48qZo), [:material-presentation-play: Slideshow](./assets/20260122%20-%20Xarray-cloud/slides.pdf), [:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/47)
 
 **Abstract:** The simulations of global climate models participating in CMIP6 provide a wealth of information but are challenging to analyse due to the wide variety of models and conventions and the large volume of data, especially when looking at higher resolution simulations or multiple simulation variants per model. Traditional workflows involve locally downloading CMIP6 data from ESGF servers or analysing data directly at those servers. With the introduction of CMIP6 data on Google Cloud, faster and more transparent cloud-based analyses are now also possible. Packages like xmip help analysing the data across models with different conventions in a structured way. In the In this talk I will explain the advantages of using cloud-based CMIP6 data and run you through a basic but neat demo workflow, based on examples available in the Pangeo Gallery and my own experiences.
+
+### 2026-02-05 | "Xarray Series Part 1: Fundamentals of Xarray" by Nick Hodgskin
+
+[:octicons-video-16: Recording](https://youtu.be/Q5VDvxb33dM), [:material-presentation-play: Slideshow](./assets/20260205%20-%20Xarray-pt-1/slides.pdf), [:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/31)
+
+**Abstract:** In the first instalment of this series, we follow the amazing Pythia Foundations online resource to learn the fundamentals of Xarray in the context of the geosciences. By the end of this talk, you will know the basic data structures in Xarray, be able to inspect DataArray and Dataset objects, as well as read and write netCDF files. Most importantly - this talk will start to show how Xarray based workflows can greatly simplify analysis and data processing of multidimensional climate data. There is no required pre-requisite knowledge to attend this talk. Whether you're an experienced Python user, or new to Python - everyone is welcome.
 
 ### Archived talks
 
