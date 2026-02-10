@@ -91,7 +91,7 @@ _Titles are placeholder._
 
 ### 2025-11-13 | "Taming the Scheduler: Primer and Good Practices for Slurm on HPC Systems" by Lucas Esclapez
 
-[:octicons-video-16: Recording](https://youtu.be/TzG8FlcSoDA), [:material-presentation-play: Slideshow](./assets/20251113%20-%20SLURM/slides.pdf), [:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/30)
+[:material-github: Repo with Jupyter Notebook](https://github.com/Timh37/python4lunch_cmip6gc), [:octicons-video-16: Recording](https://youtu.be/TzG8FlcSoDA), [:material-presentation-play: Slideshow](./assets/20251113%20-%20SLURM/slides.pdf), [:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/30)
 
 **Abstract:** State-of-the-art climate research increasingly depends on high-performance computing (HPC) platforms to process large datasets and to run simulations of ever more complex models. Unlike personal computers, HPC systems provide a shared pool of computational resources accessed by many users simultaneously. Efficient and fair use of these resources is managed by a scheduler — a key component that can be both powerful and, for new users, somewhat opaque or frustrating. In this talk, I will introduce Slurm, one of the most widely used workload managers in the HPC community. I will explain how Slurm allocates resources, manages jobs, and maintains system efficiency. The session will also cover good practices for submitting, monitoring jobs and optimizing resource usage.
 
