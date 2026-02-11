@@ -27,7 +27,7 @@ Abstract: ...
 _Titles are placeholder._
 
 - 2026-02-19 | TBD
-- 2026-03-05 | TBD
+- 2026-03-05 | "Pixi for Science" by Barber Vos
 - 2026-03-19 | TBD
 - 2026-04-02\* | TBD
 - 2026-04-16\* | TBD
