@@ -27,7 +27,7 @@ Abstract: ...
 _Titles are placeholder._
 
 - 2026-02-19 | "Xarray Series Part 2: Computational Patterns with Xarray" by Nick Hodgskin ([:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/31))
-    - Abstract: Having a grasp on the tools that Xarray gives you is the difference between a performant one-liner, and nested for loops that take minutes to compute. In this talk, we go through the computational patterns in the Xarray toolbox, breaking them down and showing when to use them. These powerful abstractions from array programming allow for the efficient working with array data, with many concepts also extending to Numpy and other array libraries. We will be continuing with the amazing Pythia Foundations resource for this talk, as well as looking at the Xarray documentation.
+    - Abstract: Having a grasp on the tools that Xarray gives you is the difference between a performant one-liner, and nested for-loops that take minutes to compute. In this talk, we go through the computational patterns in the Xarray toolbox, breaking them down and showing when to use them. These powerful abstractions from array programming allow for the efficient working with array data, with many concepts also extending to Numpy and other array libraries. We will be continuing with the amazing Pythia Foundations resource for this talk, as well as looking at the Xarray documentation.
 - 2026-03-05 | "Pixi for Science" by Barber Vos
 - 2026-03-19 | TBD
 - 2026-04-02\* | TBD
