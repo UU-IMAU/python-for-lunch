@@ -33,7 +33,7 @@ _Titles are placeholder._
 - 2026-04-02\* | TBD
 - 2026-04-16\* | TBD
 - 2026-04-30\* | TBD
-- 2026-05-14\* | TBD
+- 2026-05-14 | _None (Public holiday)_
 - 2026-05-28\* | TBD
 - 2026-06-11\* | TBD
 - 2026-06-25\* | TBD
