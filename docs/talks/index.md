@@ -26,8 +26,6 @@ Abstract: ...
 
 _Titles are placeholder._
 
-- 2026-02-19 | "Xarray Series Part 2: Computational Patterns with Xarray" by Nick Hodgskin ([:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/31))
-    - Abstract: Having a grasp on the tools that Xarray gives you is the difference between a performant one-liner, and nested for-loops that take minutes to compute. In this talk, we go through the computational patterns in the Xarray toolbox, breaking them down and showing when to use them. These powerful abstractions from array programming allow for the efficient working with array data, with many concepts also extending to Numpy and other array libraries. We will be continuing with the amazing Pythia Foundations resource for this talk, as well as looking at the Xarray documentation.
 - 2026-03-05 | "Pixi for Science" by Barber Vos ([:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/51))
 - 2026-03-19 | TBD
 - 2026-04-02\* | TBD
@@ -107,6 +105,14 @@ _Titles are placeholder._
 [:octicons-video-16: Recording](https://youtu.be/Q5VDvxb33dM), [:material-presentation-play: Slideshow](./assets/20260205%20-%20Xarray-pt-1/slides.pdf), [:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/31)
 
 **Abstract:** In the first instalment of this series, we follow the amazing Pythia Foundations online resource to learn the fundamentals of Xarray in the context of the geosciences. By the end of this talk, you will know the basic data structures in Xarray, be able to inspect DataArray and Dataset objects, as well as read and write netCDF files. Most importantly - this talk will start to show how Xarray based workflows can greatly simplify analysis and data processing of multidimensional climate data. There is no required pre-requisite knowledge to attend this talk. Whether you're an experienced Python user, or new to Python - everyone is welcome.
+
+### 2026-02-19 | "Xarray Series Part 2: Computational Patterns with Xarray" by Nick Hodgskin
+
+<!-- [:octicons-video-16: Recording](LINK), -->
+
+[:material-file-document: Fixed "Computations and Masks with Xarray" notebook](https://github.com/VeckoTheGecko/pythia-foundations-xarray), [:material-file-document: Original "Computations and Masks with Xarray" notebook](https://foundations.projectpythia.org/core/xarray/computation-masking/), [:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/31)
+
+**Abstract:** Having a grasp on the tools that Xarray gives you is the difference between a performant one-liner, and nested for-loops that take minutes to compute. In this talk, we go through the computational patterns in the Xarray toolbox, breaking them down and showing when to use them. These powerful abstractions from array programming allow for the efficient working with array data, with many concepts also extending to Numpy and other array libraries. We will be continuing with the amazing Pythia Foundations resource for this talk, as well as looking at the Xarray documentation.
 
 ### Archived talks
 
