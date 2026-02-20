@@ -108,9 +108,10 @@ _Titles are placeholder._
 
 ### 2026-02-19 | "Xarray Series Part 2: Computational Patterns with Xarray" by Nick Hodgskin
 
-<!-- [:octicons-video-16: Recording](LINK), -->
-
-[:material-file-document: Fixed "Computations and Masks with Xarray" notebook](https://github.com/VeckoTheGecko/pythia-foundations-xarray), [:material-file-document: Original "Computations and Masks with Xarray" notebook](https://foundations.projectpythia.org/core/xarray/computation-masking/), [:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/31)
+[:octicons-video-16: Recording](https://youtu.be/-DbTzjqLvTo),
+[:material-file-document: Fixed "Computations and Masks with Xarray" notebook](https://github.com/VeckoTheGecko/pythia-foundations-xarray),
+[:material-file-document: Original "Computations and Masks with Xarray" notebook](https://foundations.projectpythia.org/core/xarray/computation-masking/),
+[:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/31)
 
 **Abstract:** Having a grasp on the tools that Xarray gives you is the difference between a performant one-liner, and nested for-loops that take minutes to compute. In this talk, we go through the computational patterns in the Xarray toolbox, breaking them down and showing when to use them. These powerful abstractions from array programming allow for the efficient working with array data, with many concepts also extending to Numpy and other array libraries. We will be continuing with the amazing Pythia Foundations resource for this talk, as well as looking at the Xarray documentation.
 
