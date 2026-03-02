@@ -1,0 +1,866 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://uu-imau.github.io/python-for-lunch/talks/">
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../contributing/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Talks - IMAU Python for Lunch</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="green">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#talks" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="IMAU Python for Lunch" class="md-header__button md-logo" aria-label="IMAU Python for Lunch" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            IMAU Python for Lunch
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Talks
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/UU-IMAU/python-for-lunch" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="IMAU Python for Lunch" class="md-nav__button md-logo" aria-label="IMAU Python for Lunch" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    IMAU Python for Lunch
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/UU-IMAU/python-for-lunch" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Python for Lunch!
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Talks
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Talks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#upcoming" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Upcoming
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prior" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prior
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Prior">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#2025-02-25-git-and-github-a-time-machine-for-every-research-project-by-nick-hodgskin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2025-02-25 | "Git and GitHub: A time machine for every research project" by Nick Hodgskin
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2025-03-06-data-science-template-go-from-zero-to-hero-with-a-fully-initialised-template-research-project-with-sensible-defaults-in-a-minute-by-franka-jesse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2025-03-06 | "Data Science Template: Go from zero to hero with a fully initialised template research project (with sensible defaults) in a minute" by Franka Jesse
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2025-03-27-python-tidbits-small-python-tips-tricks-and-packages-you-wish-you-knew-about-yesterday-by-nick-hodgskin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2025-03-27 | "Python Tidbits: Small Python tips, tricks, and packages you wish you knew about yesterday" by Nick Hodgskin
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2025-04-17-conda-environments-a-tool-for-reproducible-collaborative-and-portable-research-by-nick-hodgskin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2025-04-17 | "Conda Environments: A tool for reproducible, collaborative, and portable research" by Nick Hodgskin
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2025-05-15-vs-code-your-all-in-one-scientific-coding-environment-by-willem-kroese" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2025-05-15 | "VS Code: Your All-in-One Scientific Coding Environment" by Willem Kroese
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2025-06-12-a-roadmap-to-the-pangeo-ecosystem-by-nick-hodgskin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2025-06-12 | "A Roadmap to the Pangeo Ecosystem" by Nick Hodgskin
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2025-09-04-technical-difficulties-round-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2025-09-04 | "Technical Difficulties Round Table"
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2025-09-18-programming-in-julia-tools-for-dynamical-systems-and-climate-by-reyk-borner" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2025-09-18 | "Programming in Julia: Tools for Dynamical Systems and Climate" by Reyk Börner
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2025-11-13-taming-the-scheduler-primer-and-good-practices-for-slurm-on-hpc-systems-by-lucas-esclapez" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2025-11-13 | "Taming the Scheduler: Primer and Good Practices for Slurm on HPC Systems" by Lucas Esclapez
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2025-01-22-xarray-on-hpc-and-in-the-cloud-working-with-cmip6-data-by-tim-herman" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2025-01-22 | "Xarray on HPC and in the cloud: Working with CMIP6 data" by Tim Herman
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2026-02-05-xarray-series-part-1-fundamentals-of-xarray-by-nick-hodgskin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-02-05 | "Xarray Series Part 1: Fundamentals of Xarray" by Nick Hodgskin
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2026-02-19-xarray-series-part-2-computational-patterns-with-xarray-by-nick-hodgskin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-02-19 | "Xarray Series Part 2: Computational Patterns with Xarray" by Nick Hodgskin
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#archived-talks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Archived talks
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resources
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#upcoming" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Upcoming
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prior" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prior
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Prior">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#2025-02-25-git-and-github-a-time-machine-for-every-research-project-by-nick-hodgskin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2025-02-25 | "Git and GitHub: A time machine for every research project" by Nick Hodgskin
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2025-03-06-data-science-template-go-from-zero-to-hero-with-a-fully-initialised-template-research-project-with-sensible-defaults-in-a-minute-by-franka-jesse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2025-03-06 | "Data Science Template: Go from zero to hero with a fully initialised template research project (with sensible defaults) in a minute" by Franka Jesse
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2025-03-27-python-tidbits-small-python-tips-tricks-and-packages-you-wish-you-knew-about-yesterday-by-nick-hodgskin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2025-03-27 | "Python Tidbits: Small Python tips, tricks, and packages you wish you knew about yesterday" by Nick Hodgskin
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2025-04-17-conda-environments-a-tool-for-reproducible-collaborative-and-portable-research-by-nick-hodgskin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2025-04-17 | "Conda Environments: A tool for reproducible, collaborative, and portable research" by Nick Hodgskin
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2025-05-15-vs-code-your-all-in-one-scientific-coding-environment-by-willem-kroese" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2025-05-15 | "VS Code: Your All-in-One Scientific Coding Environment" by Willem Kroese
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2025-06-12-a-roadmap-to-the-pangeo-ecosystem-by-nick-hodgskin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2025-06-12 | "A Roadmap to the Pangeo Ecosystem" by Nick Hodgskin
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2025-09-04-technical-difficulties-round-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2025-09-04 | "Technical Difficulties Round Table"
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2025-09-18-programming-in-julia-tools-for-dynamical-systems-and-climate-by-reyk-borner" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2025-09-18 | "Programming in Julia: Tools for Dynamical Systems and Climate" by Reyk Börner
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2025-11-13-taming-the-scheduler-primer-and-good-practices-for-slurm-on-hpc-systems-by-lucas-esclapez" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2025-11-13 | "Taming the Scheduler: Primer and Good Practices for Slurm on HPC Systems" by Lucas Esclapez
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2025-01-22-xarray-on-hpc-and-in-the-cloud-working-with-cmip6-data-by-tim-herman" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2025-01-22 | "Xarray on HPC and in the cloud: Working with CMIP6 data" by Tim Herman
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2026-02-05-xarray-series-part-1-fundamentals-of-xarray-by-nick-hodgskin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-02-05 | "Xarray Series Part 1: Fundamentals of Xarray" by Nick Hodgskin
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2026-02-19-xarray-series-part-2-computational-patterns-with-xarray-by-nick-hodgskin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-02-19 | "Xarray Series Part 2: Computational Patterns with Xarray" by Nick Hodgskin
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#archived-talks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Archived talks
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/UU-IMAU/python-for-lunch/edit/main/docs/talks/index.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="talks">Talks</h1>
+<p>Below you can see a list of prior talks (chronological order), as well as upcoming talks, and their resources. You can click <a href="https://github.com/UU-IMAU/python-for-lunch/issues?q=is%3Aissue+is%3Aopen+label%3Atalk-suggestion">here</a> for a list of all suggested talks.</p>
+<p>We try to have a talk every other Thursday at 12pm.</p>
+<!--
+
+For upcoming talks, add them using the following format
+<div class="highlight"><pre><span></span><code>- YYYY-MM-DD | &quot;TALK_TITLE&quot; by PRESENTER [(:material-github: Discussion)](github_link to issue/PR)
+  - Abstract: ...
+</code></pre></div>
+For completed talks, add them using the following format
+
+<div class="highlight"><pre><span></span><code>### YYYY-MM-DD | &quot;TALK_TITLE&quot; by PRESENTER
+[:octicons-video-16: Recording](link to video), [:material-presentation-play: Slideshow](link to slides), [:material-file-document: Supporting material](github_link to folder on main branch), [:material-github: Discussion](github_link to issue/PR)
+
+Abstract: ...
+</code></pre></div>
+
+-->
+
+<h2 id="upcoming">Upcoming</h2>
+<p><em>Titles are placeholder.</em></p>
+<ul>
+<li>2026-03-05 | "Supercharge your Python environments using Pixi" by Barber Vos (<a href="https://github.com/UU-IMAU/python-for-lunch/issues/51"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg></span> Discussion</a>)<ul>
+<li>Abstract: Many research projects depend on a specific computational environment. Over time, changes in dependencies, Python versions, or operating systems can make scripts harder to run or share, especially when working across different machines or with collaborators. In this talk, I will introduce Pixi, a drop-in replacement for Conda which provides much better workflows for managing project environments and dependencies. Whether you work alone or in a team, Pixi helps you see exactly what your project depends on, collaborate without environment headaches, and reproduce other researchers’ work.</li>
+</ul>
+</li>
+<li>2026-03-19 | TBD</li>
+<li>2026-04-02* | TBD</li>
+<li>2026-04-16* | "Data processing with CDO" by Oliver Mehling (<a href="https://github.com/UU-IMAU/python-for-lunch/issues/38"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg></span> Discussion</a>)</li>
+<li>2026-04-30* | TBD</li>
+<li>2026-05-14 | <em>None (Public holiday)</em></li>
+<li>2026-05-28* | TBD</li>
+<li>2026-06-11* | TBD</li>
+<li>2026-06-25* | TBD</li>
+</ul>
+<p>*Unconfirmed location (might be back to 6.07)</p>
+<h2 id="prior">Prior</h2>
+<h3 id="2025-02-25-git-and-github-a-time-machine-for-every-research-project-by-nick-hodgskin">2025-02-25 | "Git and GitHub: A time machine for every research project" by Nick Hodgskin</h3>
+<p><a href="https://youtu.be/QfojYVT01t0"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M0 3.75C0 2.784.784 2 1.75 2h12.5c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 14H1.75A1.75 1.75 0 0 1 0 12.25Zm1.75-.25a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-8.5a.25.25 0 0 0-.25-.25Z"/><path d="M6 10.559V5.442a.25.25 0 0 1 .379-.215l4.264 2.559a.25.25 0 0 1 0 .428l-4.264 2.559A.25.25 0 0 1 6 10.559"/></svg></span> Recording</a>, <a href="assets/20250220%20-%20Git%20and%20GitHub/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2 3h8a2 2 0 0 1 2-2 2 2 0 0 1 2 2h8v2h-1v11h-5.75L17 22h-2l-1.75-6h-2.5L9 22H7l1.75-6H3V5H2zm3 2v9h14V5zm6.85 6.85a.5.5 0 0 1-.35.15.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5c.14 0 .26.06.35.15l1.4 1.39c.32.32.64.64.64.96s-.32.64-.64.96z"/></svg></span> Slideshow</a>, <a href="https://github.com/UU-IMAU/python-for-lunch/issues/11"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg></span> Discussion</a></p>
+<p><strong>Abstract:</strong> Managing versions of a document is easy - just copy, paste, rename (often appending <code>_old</code> or <code>_draft1</code> to the end), and you're good to go. But what happens when your research involves dozens of inter-related scripts, datasets, and perhaps even collaborators? Suddenly the "copy paste" version management becomes a nightmare. How can we keep track of changes, prevent lost work, and confidently explore new ideas without fear of breaking everything? Enter Git, a version control system that acts like a time machine for your research. In this session, we’ll demystify Git, explaining its core concepts - commits, branches, and repositories - and show how it can be used by independent researchers as well as large teams. We’ll also introduce GitHub - a powerful platform for sharing, reviewing, and archiving research code. The talk is based off the highly polished "Version Control with Git" course from Software Carpentry.</p>
+<h3 id="2025-03-06-data-science-template-go-from-zero-to-hero-with-a-fully-initialised-template-research-project-with-sensible-defaults-in-a-minute-by-franka-jesse">2025-03-06 | "Data Science Template: Go from zero to hero with a fully initialised template research project (with sensible defaults) in a minute" by Franka Jesse</h3>
+<p><a href="https://youtu.be/Og9Wrppp_yg"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M0 3.75C0 2.784.784 2 1.75 2h12.5c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 14H1.75A1.75 1.75 0 0 1 0 12.25Zm1.75-.25a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-8.5a.25.25 0 0 0-.25-.25Z"/><path d="M6 10.559V5.442a.25.25 0 0 1 .379-.215l4.264 2.559a.25.25 0 0 1 0 .428l-4.264 2.559A.25.25 0 0 1 6 10.559"/></svg></span> Recording</a>, <a href="assets/20250306%20-%20CCDS/DataScienceTemplate-6March25.pdf"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2 3h8a2 2 0 0 1 2-2 2 2 0 0 1 2 2h8v2h-1v11h-5.75L17 22h-2l-1.75-6h-2.5L9 22H7l1.75-6H3V5H2zm3 2v9h14V5zm6.85 6.85a.5.5 0 0 1-.35.15.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5c.14 0 .26.06.35.15l1.4 1.39c.32.32.64.64.64.96s-.32.64-.64.96z"/></svg></span> Slideshow</a>, <a href="https://cookiecutter-data-science.drivendata.org/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 9h5.5L13 3.5zM6 2h8l6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4c0-1.11.89-2 2-2m9 16v-2H6v2zm3-4v-2H6v2z"/></svg></span> CCDS Documentation</a>, <a href="https://github.com/UU-IMAU/python-for-lunch/blob/main/docs/talks/assets/20250306%20-%20CCDS/project_icesheetmelt"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 4H4c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-8z"/></svg></span> Showcase Example</a>, <a href="https://github.com/UU-IMAU/python-for-lunch/issues/13"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg></span> Discussion</a></p>
+<p><strong>Abstract:</strong> We've all been there – eager to start a new research project, only to end up with a chaotic mess of notebooks like 'final_data_analysis_REALLY_FINAL_version6.ipynb' and data files scattered across our desktop like digital confetti. Fear not! In this lunch talk, I will introduce the "Cookie Cutter Data Science" template (CCDS for short) from Data Driven. It's a quick and painless way to set up your research project in under a minute—with a logical folder structure, sensible defaults, and zero regrets. We will also cover how to integrate it with Git for better version control (and fewer "final" versions). Whether you're handling climate model outputs, wrestling with observational data, or training a machine learning model, this template will save you from future headaches - and impress your collaborators with your beautifully organized project.</p>
+<h3 id="2025-03-27-python-tidbits-small-python-tips-tricks-and-packages-you-wish-you-knew-about-yesterday-by-nick-hodgskin">2025-03-27 | "Python Tidbits: Small Python tips, tricks, and packages you wish you knew about yesterday" by Nick Hodgskin</h3>
+<p><a href="https://youtu.be/X-F0fFFW-wo"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M0 3.75C0 2.784.784 2 1.75 2h12.5c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 14H1.75A1.75 1.75 0 0 1 0 12.25Zm1.75-.25a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-8.5a.25.25 0 0 0-.25-.25Z"/><path d="M6 10.559V5.442a.25.25 0 0 1 .379-.215l4.264 2.559a.25.25 0 0 1 0 .428l-4.264 2.559A.25.25 0 0 1 6 10.559"/></svg></span> Recording</a>,<a href="python-tidbits/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 9h5.5L13 3.5zM6 2h8l6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4c0-1.11.89-2 2-2m9 16v-2H6v2zm3-4v-2H6v2z"/></svg></span> Notebook</a>, <a href="https://github.com/UU-IMAU/python-for-lunch/blob/main/docs/talks/python-tidbits.ipynb"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7z"/></svg></span> Notebook Download</a>, <a href="https://github.com/UU-IMAU/python-for-lunch/issues/21"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg></span> Discussion</a></p>
+<p><strong>Abstract:</strong> Sometimes the most impactful, timesaving features of a programming language are small tips, tricks, and patterns that you pick up along the way. When you finally come across them, you're left thinking "if only I knew about this earlier!". In this talk, we'll go through many of these lesser-known Python tricks - most of which are built directly into the Python language or standard library – to supercharge your Python skills. This talk will be fast paced covering a wide range of features, focusing on "tidbits" that can be explained in a few minutes each.</p>
+<h3 id="2025-04-17-conda-environments-a-tool-for-reproducible-collaborative-and-portable-research-by-nick-hodgskin">2025-04-17 | "Conda Environments: A tool for reproducible, collaborative, and portable research" by Nick Hodgskin</h3>
+<p><a href="https://youtu.be/KV0zTx_n3o0"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M0 3.75C0 2.784.784 2 1.75 2h12.5c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 14H1.75A1.75 1.75 0 0 1 0 12.25Zm1.75-.25a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-8.5a.25.25 0 0 0-.25-.25Z"/><path d="M6 10.559V5.442a.25.25 0 0 1 .379-.215l4.264 2.559a.25.25 0 0 1 0 .428l-4.264 2.559A.25.25 0 0 1 6 10.559"/></svg></span> Recording</a>, <a href="assets/20250417%20-%20Conda/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2 3h8a2 2 0 0 1 2-2 2 2 0 0 1 2 2h8v2h-1v11h-5.75L17 22h-2l-1.75-6h-2.5L9 22H7l1.75-6H3V5H2zm3 2v9h14V5zm6.85 6.85a.5.5 0 0 1-.35.15.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5c.14 0 .26.06.35.15l1.4 1.39c.32.32.64.64.64.96s-.32.64-.64.96z"/></svg></span> Slideshow</a>, <a href="https://github.com/UU-IMAU/python-for-lunch/issues/26"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg></span> Discussion</a></p>
+<p><strong>Abstract:</strong> Every research project has different requirements. In software this comes in the form of different software dependencies. As we get involved with different research projects, we must manage these different (perhaps conflicting) dependencies - which can be an absolute nightmare if you don't have the right tools! In this talk we go over Conda environments which allow us to isolate dependencies so that we can work in isolated sandboxes for each of our projects. We can easily share these environments, whether it be with collaborators, with readers of your article, or if you want the same environment on your machine and on HPC. Conda environments are one of the key parts of reproducible research. At the end of this talk we also take a brief look at Pixi, a modern alternative to Conda environments which is picking up steam.</p>
+<h3 id="2025-05-15-vs-code-your-all-in-one-scientific-coding-environment-by-willem-kroese">2025-05-15 | "VS Code: Your All-in-One Scientific Coding Environment" by Willem Kroese</h3>
+<p><a href="https://youtu.be/YRGjb4fEidg"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M0 3.75C0 2.784.784 2 1.75 2h12.5c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 14H1.75A1.75 1.75 0 0 1 0 12.25Zm1.75-.25a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-8.5a.25.25 0 0 0-.25-.25Z"/><path d="M6 10.559V5.442a.25.25 0 0 1 .379-.215l4.264 2.559a.25.25 0 0 1 0 .428l-4.264 2.559A.25.25 0 0 1 6 10.559"/></svg></span> Recording</a>, <a href="assets/20250515%20-%20VSCode/slides.pdf"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2 3h8a2 2 0 0 1 2-2 2 2 0 0 1 2 2h8v2h-1v11h-5.75L17 22h-2l-1.75-6h-2.5L9 22H7l1.75-6H3V5H2zm3 2v9h14V5zm6.85 6.85a.5.5 0 0 1-.35.15.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5c.14 0 .26.06.35.15l1.4 1.39c.32.32.64.64.64.96s-.32.64-.64.96z"/></svg></span> Slideshow</a>, <a href="https://github.com/UU-IMAU/python-for-lunch/issues/29"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg></span> Discussion</a></p>
+<p><strong>Abstract:</strong> As scientists, our projects span multiple languages, diverse config/data files, notebooks, local scripting and cloud or cluster work. In this hands-on workshop you’ll discover how Visual Studio Code brings all these workflows under one roof. We’ll kick off with a quick tour of VS Code’s core features (command palette, terminal, workspace management), then dive into essential settings and extensions. You’ll pick up time-saving tips &amp; shortcuts (multi-cursor edits, snippets, Zen Mode), get a peek at remote development over SSH, and watch GitHub Copilot assist your coding with suggestions. Finally, as a real-world bonus, I’ll show you how I turned VS Code into my local LaTeX editor. By the end, you’ll have a personalized toolkit of settings, extensions, and workflows to supercharge your VS Code experience. Bring your laptop if you want to follow along!</p>
+<h3 id="2025-06-12-a-roadmap-to-the-pangeo-ecosystem-by-nick-hodgskin">2025-06-12 | "A Roadmap to the Pangeo Ecosystem" by Nick Hodgskin</h3>
+<p><a href="https://youtu.be/iPh3KxxcAjA"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M0 3.75C0 2.784.784 2 1.75 2h12.5c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 14H1.75A1.75 1.75 0 0 1 0 12.25Zm1.75-.25a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-8.5a.25.25 0 0 0-.25-.25Z"/><path d="M6 10.559V5.442a.25.25 0 0 1 .379-.215l4.264 2.559a.25.25 0 0 1 0 .428l-4.264 2.559A.25.25 0 0 1 6 10.559"/></svg></span> Recording</a>, <a href="assets/20250612%20-%20Pangeo%20Roadmap/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2 3h8a2 2 0 0 1 2-2 2 2 0 0 1 2 2h8v2h-1v11h-5.75L17 22h-2l-1.75-6h-2.5L9 22H7l1.75-6H3V5H2zm3 2v9h14V5zm6.85 6.85a.5.5 0 0 1-.35.15.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5c.14 0 .26.06.35.15l1.4 1.39c.32.32.64.64.64.96s-.32.64-.64.96z"/></svg></span> Slideshow</a>, <a href="https://github.com/UU-IMAU/python-for-lunch/issues/34"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg></span> Discussion</a></p>
+<p><strong>Abstract:</strong> We've all heard the name Pangeo - at a conference, or as a mention from the documentation of one of our tools - but what is it? Why are many climate scientists excited about it? It this talk we explore the Pangeo community and the ecosystem of packages it provides, going over its core mission and why it's needed in the next era of climate science where working with "big data" is becoming the norm. In this talk will give you a roadmap of the different packages and resources available in the Pangeo ecosystem - so that you can identify useful tools to investigate for your workflows and use-cases.</p>
+<h3 id="2025-09-04-technical-difficulties-round-table">2025-09-04 | "Technical Difficulties Round Table"</h3>
+<p><a href="assets/20250904%20-%20technical-difficulties-summary/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 9h5.5L13 3.5zM6 2h8l6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4c0-1.11.89-2 2-2m9 16v-2H6v2zm3-4v-2H6v2z"/></svg></span> Summary Notes</a></p>
+<p><strong>Abstract:</strong> In our scientific workflows, we all encounter technical difficulties. How can I easily transfer data from a server to my computer? How can I easily iterate using a notebook on an HPC? How can I share data in a cross-institution collaboration? We'll use this session as a round table (or maybe "support group") where we can share our frustrations. Let's share our workflows, and voice the difficulties that we encounter so that we can learn from each other. This session will not be recorded so that people can share openly - an anonymised summary will be uploaded after discussion.</p>
+<h3 id="2025-09-18-programming-in-julia-tools-for-dynamical-systems-and-climate-by-reyk-borner">2025-09-18 | "Programming in Julia: Tools for Dynamical Systems and Climate" by Reyk Börner</h3>
+<p><a href="https://youtu.be/zGWr6hVwUQg"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M0 3.75C0 2.784.784 2 1.75 2h12.5c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 14H1.75A1.75 1.75 0 0 1 0 12.25Zm1.75-.25a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-8.5a.25.25 0 0 0-.25-.25Z"/><path d="M6 10.559V5.442a.25.25 0 0 1 .379-.215l4.264 2.559a.25.25 0 0 1 0 .428l-4.264 2.559A.25.25 0 0 1 6 10.559"/></svg></span> Recording</a>, <a href="assets/20250918%20-%20Julia/slides.pdf"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2 3h8a2 2 0 0 1 2-2 2 2 0 0 1 2 2h8v2h-1v11h-5.75L17 22h-2l-1.75-6h-2.5L9 22H7l1.75-6H3V5H2zm3 2v9h14V5zm6.85 6.85a.5.5 0 0 1-.35.15.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5c.14 0 .26.06.35.15l1.4 1.39c.32.32.64.64.64.96s-.32.64-.64.96z"/></svg></span> Slideshow</a>, <a href="https://github.com/reykboerner/juliaforlunch"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg></span> GitHub Repo</a>, <a href="https://github.com/UU-IMAU/python-for-lunch/issues/27"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg></span> Discussion</a></p>
+<p><strong>Abstract:</strong> As a climate scientist, chances are you’re working with some model written in Fortran and analysing data using Python. While Fortran is fast but a bit clunky, Python’s simplicity can come at the cost of running slowly. Julia, an increasingly popular programming language, seeks to offer the best of both worlds by combining speed with an intuitive, Python-like syntax. In this seminar, I’ll share my experience with co-developing my first Julia package (CriticalTransitions.jl) as someone who used to write messy Python scripts. We’ll explore the basic use, pros and cons, and what functionality is out there for dynamical systems analysis and climate modelling.</p>
+<h3 id="2025-11-13-taming-the-scheduler-primer-and-good-practices-for-slurm-on-hpc-systems-by-lucas-esclapez">2025-11-13 | "Taming the Scheduler: Primer and Good Practices for Slurm on HPC Systems" by Lucas Esclapez</h3>
+<p><a href="https://github.com/Timh37/python4lunch_cmip6gc"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg></span> Repo with Jupyter Notebook</a>, <a href="https://youtu.be/TzG8FlcSoDA"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M0 3.75C0 2.784.784 2 1.75 2h12.5c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 14H1.75A1.75 1.75 0 0 1 0 12.25Zm1.75-.25a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-8.5a.25.25 0 0 0-.25-.25Z"/><path d="M6 10.559V5.442a.25.25 0 0 1 .379-.215l4.264 2.559a.25.25 0 0 1 0 .428l-4.264 2.559A.25.25 0 0 1 6 10.559"/></svg></span> Recording</a>, <a href="assets/20251113%20-%20SLURM/slides.pdf"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2 3h8a2 2 0 0 1 2-2 2 2 0 0 1 2 2h8v2h-1v11h-5.75L17 22h-2l-1.75-6h-2.5L9 22H7l1.75-6H3V5H2zm3 2v9h14V5zm6.85 6.85a.5.5 0 0 1-.35.15.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5c.14 0 .26.06.35.15l1.4 1.39c.32.32.64.64.64.96s-.32.64-.64.96z"/></svg></span> Slideshow</a>, <a href="https://github.com/UU-IMAU/python-for-lunch/issues/30"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg></span> Discussion</a></p>
+<p><strong>Abstract:</strong> State-of-the-art climate research increasingly depends on high-performance computing (HPC) platforms to process large datasets and to run simulations of ever more complex models. Unlike personal computers, HPC systems provide a shared pool of computational resources accessed by many users simultaneously. Efficient and fair use of these resources is managed by a scheduler — a key component that can be both powerful and, for new users, somewhat opaque or frustrating. In this talk, I will introduce Slurm, one of the most widely used workload managers in the HPC community. I will explain how Slurm allocates resources, manages jobs, and maintains system efficiency. The session will also cover good practices for submitting, monitoring jobs and optimizing resource usage.</p>
+<h3 id="2025-01-22-xarray-on-hpc-and-in-the-cloud-working-with-cmip6-data-by-tim-herman">2025-01-22 | "Xarray on HPC and in the cloud: Working with CMIP6 data" by Tim Herman</h3>
+<p><a href="https://youtu.be/6msZRQ48qZo"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M0 3.75C0 2.784.784 2 1.75 2h12.5c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 14H1.75A1.75 1.75 0 0 1 0 12.25Zm1.75-.25a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-8.5a.25.25 0 0 0-.25-.25Z"/><path d="M6 10.559V5.442a.25.25 0 0 1 .379-.215l4.264 2.559a.25.25 0 0 1 0 .428l-4.264 2.559A.25.25 0 0 1 6 10.559"/></svg></span> Recording</a>, <a href="assets/20260122%20-%20Xarray-cloud/slides.pdf"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2 3h8a2 2 0 0 1 2-2 2 2 0 0 1 2 2h8v2h-1v11h-5.75L17 22h-2l-1.75-6h-2.5L9 22H7l1.75-6H3V5H2zm3 2v9h14V5zm6.85 6.85a.5.5 0 0 1-.35.15.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5c.14 0 .26.06.35.15l1.4 1.39c.32.32.64.64.64.96s-.32.64-.64.96z"/></svg></span> Slideshow</a>, <a href="https://github.com/UU-IMAU/python-for-lunch/issues/47"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg></span> Discussion</a></p>
+<p><strong>Abstract:</strong> The simulations of global climate models participating in CMIP6 provide a wealth of information but are challenging to analyse due to the wide variety of models and conventions and the large volume of data, especially when looking at higher resolution simulations or multiple simulation variants per model. Traditional workflows involve locally downloading CMIP6 data from ESGF servers or analysing data directly at those servers. With the introduction of CMIP6 data on Google Cloud, faster and more transparent cloud-based analyses are now also possible. Packages like xmip help analysing the data across models with different conventions in a structured way. In the In this talk I will explain the advantages of using cloud-based CMIP6 data and run you through a basic but neat demo workflow, based on examples available in the Pangeo Gallery and my own experiences.</p>
+<h3 id="2026-02-05-xarray-series-part-1-fundamentals-of-xarray-by-nick-hodgskin">2026-02-05 | "Xarray Series Part 1: Fundamentals of Xarray" by Nick Hodgskin</h3>
+<p><a href="https://youtu.be/Q5VDvxb33dM"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M0 3.75C0 2.784.784 2 1.75 2h12.5c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 14H1.75A1.75 1.75 0 0 1 0 12.25Zm1.75-.25a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-8.5a.25.25 0 0 0-.25-.25Z"/><path d="M6 10.559V5.442a.25.25 0 0 1 .379-.215l4.264 2.559a.25.25 0 0 1 0 .428l-4.264 2.559A.25.25 0 0 1 6 10.559"/></svg></span> Recording</a>, <a href="assets/20260205%20-%20Xarray-pt-1/slides.pdf"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2 3h8a2 2 0 0 1 2-2 2 2 0 0 1 2 2h8v2h-1v11h-5.75L17 22h-2l-1.75-6h-2.5L9 22H7l1.75-6H3V5H2zm3 2v9h14V5zm6.85 6.85a.5.5 0 0 1-.35.15.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5c.14 0 .26.06.35.15l1.4 1.39c.32.32.64.64.64.96s-.32.64-.64.96z"/></svg></span> Slideshow</a>, <a href="https://github.com/UU-IMAU/python-for-lunch/issues/31"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg></span> Discussion</a></p>
+<p><strong>Abstract:</strong> In the first instalment of this series, we follow the amazing Pythia Foundations online resource to learn the fundamentals of Xarray in the context of the geosciences. By the end of this talk, you will know the basic data structures in Xarray, be able to inspect DataArray and Dataset objects, as well as read and write netCDF files. Most importantly - this talk will start to show how Xarray based workflows can greatly simplify analysis and data processing of multidimensional climate data. There is no required pre-requisite knowledge to attend this talk. Whether you're an experienced Python user, or new to Python - everyone is welcome.</p>
+<h3 id="2026-02-19-xarray-series-part-2-computational-patterns-with-xarray-by-nick-hodgskin">2026-02-19 | "Xarray Series Part 2: Computational Patterns with Xarray" by Nick Hodgskin</h3>
+<p><a href="https://youtu.be/-DbTzjqLvTo"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M0 3.75C0 2.784.784 2 1.75 2h12.5c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 14H1.75A1.75 1.75 0 0 1 0 12.25Zm1.75-.25a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-8.5a.25.25 0 0 0-.25-.25Z"/><path d="M6 10.559V5.442a.25.25 0 0 1 .379-.215l4.264 2.559a.25.25 0 0 1 0 .428l-4.264 2.559A.25.25 0 0 1 6 10.559"/></svg></span> Recording</a>,
+<a href="https://github.com/VeckoTheGecko/pythia-foundations-xarray"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 9h5.5L13 3.5zM6 2h8l6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4c0-1.11.89-2 2-2m9 16v-2H6v2zm3-4v-2H6v2z"/></svg></span> Fixed "Computations and Masks with Xarray" notebook</a>,
+<a href="https://foundations.projectpythia.org/core/xarray/computation-masking/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 9h5.5L13 3.5zM6 2h8l6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4c0-1.11.89-2 2-2m9 16v-2H6v2zm3-4v-2H6v2z"/></svg></span> Original "Computations and Masks with Xarray" notebook</a>,
+<a href="https://github.com/UU-IMAU/python-for-lunch/issues/31"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg></span> Discussion</a></p>
+<p><strong>Abstract:</strong> Having a grasp on the tools that Xarray gives you is the difference between a performant one-liner, and nested for-loops that take minutes to compute. In this talk, we go through the computational patterns in the Xarray toolbox, breaking them down and showing when to use them. These powerful abstractions from array programming allow for the efficient working with array data, with many concepts also extending to Numpy and other array libraries. We will be continuing with the amazing Pythia Foundations resource for this talk, as well as looking at the Xarray documentation.</p>
+<h3 id="archived-talks">Archived talks</h3>
+<p><a href="https://github.com/UU-IMAU/Python-for-lunch-Notebooks/blob/main/archived">Archived talks</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.action.edit"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
