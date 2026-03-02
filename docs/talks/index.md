@@ -26,7 +26,8 @@ Abstract: ...
 
 _Titles are placeholder._
 
-- 2026-03-05 | "Pixi for Science" by Barber Vos ([:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/51))
+- 2026-03-05 | "Supercharge your Python environments using Pixi" by Barber Vos ([:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/51))
+    - Abstract: Many research projects depend on a specific computational environment. Over time, changes in dependencies, Python versions, or operating systems can make scripts harder to run or share, especially when working across different machines or with collaborators. In this talk, I will introduce Pixi, a drop-in replacement for Conda which provides much better workflows for managing project environments and dependencies. Whether you work alone or in a team, Pixi helps you see exactly what your project depends on, collaborate without environment headaches, and reproduce other researchers’ work.
 - 2026-03-19 | TBD
 - 2026-04-02\* | TBD
 - 2026-04-16\* | "Data processing with CDO" by Oliver Mehling ([:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/38))
