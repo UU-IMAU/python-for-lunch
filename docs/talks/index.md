@@ -26,8 +26,6 @@ Abstract: ...
 
 _Titles are placeholder._
 
-- 2026-03-05 | "Supercharge your Python environments using Pixi" by Barber Vos ([:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/51))
-    - Abstract: Many research projects depend on a specific computational environment. Over time, changes in dependencies, Python versions, or operating systems can make scripts harder to run or share, especially when working across different machines or with collaborators. In this talk, I will introduce Pixi, a drop-in replacement for Conda which provides much better workflows for managing project environments and dependencies. Whether you work alone or in a team, Pixi helps you see exactly what your project depends on, collaborate without environment headaches, and reproduce other researchers’ work.
 - 2026-03-19 | TBD
 - 2026-04-02\* | "Open code from a journal editor’s perspective - an open discussion" by Erik van Sebille ([:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/18))
 - 2026-04-16\* | "Data processing with CDO" by Oliver Mehling ([:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/38))
@@ -115,6 +113,16 @@ _Titles are placeholder._
 [:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/31)
 
 **Abstract:** Having a grasp on the tools that Xarray gives you is the difference between a performant one-liner, and nested for-loops that take minutes to compute. In this talk, we go through the computational patterns in the Xarray toolbox, breaking them down and showing when to use them. These powerful abstractions from array programming allow for the efficient working with array data, with many concepts also extending to Numpy and other array libraries. We will be continuing with the amazing Pythia Foundations resource for this talk, as well as looking at the Xarray documentation.
+
+### 2026-03-05 | "Supercharge your Python environments using Pixi" by Barber Vos
+
+<!-- [:octicons-video-16: Recording](TODO), -->
+
+[:material-presentation-play: Slideshow](./assets/20260305%20-%20pixi/slides.pdf),
+[:material-file-document: Notes](./assets/20260305%20-%20pixi/notes),
+[:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/51)
+
+**Abstract:** Many research projects depend on a specific computational environment. Over time, changes in dependencies, Python versions, or operating systems can make scripts harder to run or share, especially when working across different machines or with collaborators. In this talk, I will introduce Pixi, a drop-in replacement for Conda which provides much better workflows for managing project environments and dependencies. Whether you work alone or in a team, Pixi helps you see exactly what your project depends on, collaborate without environment headaches, and reproduce other researchers’ work.
 
 ### Archived talks
 
