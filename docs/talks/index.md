@@ -118,8 +118,8 @@ _Titles are placeholder._
 
 <!-- [:octicons-video-16: Recording](TODO), -->
 
-[:material-presentation-play: Slideshow](./assets/20260305%20-%20pixi/slides.pdf),
-[:material-file-document: Notes](./assets/20260305%20-%20pixi/notes),
+[:material-presentation-play: Slideshow](./assets/20260305%20-%20Pixi/slides.pdf),
+[:material-file-document: Notes](./assets/20260305%20-%20Pixi/notes),
 [:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/51)
 
 **Abstract:** Many research projects depend on a specific computational environment. Over time, changes in dependencies, Python versions, or operating systems can make scripts harder to run or share, especially when working across different machines or with collaborators. In this talk, I will introduce Pixi, a drop-in replacement for Conda which provides much better workflows for managing project environments and dependencies. Whether you work alone or in a team, Pixi helps you see exactly what your project depends on, collaborate without environment headaches, and reproduce other researchers’ work.
