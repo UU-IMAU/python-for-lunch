@@ -116,8 +116,7 @@ _Titles are placeholder._
 
 ### 2026-03-05 | "Supercharge your Python environments using Pixi" by Barber Vos
 
-<!-- [:octicons-video-16: Recording](TODO), -->
-
+[:octicons-video-16: Recording](https://youtu.be/cl66VMA6Q2A),
 [:material-presentation-play: Slideshow](./assets/20260305%20-%20Pixi/slides.pdf),
 [:material-file-document: Notes](./assets/20260305%20-%20Pixi/notes),
 [:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/51)
