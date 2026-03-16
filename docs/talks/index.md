@@ -26,7 +26,7 @@ Abstract: ...
 
 _Titles are placeholder._
 
-- 2026-03-19 | TBD
+- 2026-03-19 | _None_
 - 2026-04-02\* | "Open code from a journal editor’s perspective - an open discussion" by Erik van Sebille ([:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/18))
 - 2026-04-16\* | "Data processing with CDO" by Oliver Mehling ([:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/38))
 - 2026-04-30\* | TBD
