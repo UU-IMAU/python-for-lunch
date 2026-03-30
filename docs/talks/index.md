@@ -26,7 +26,8 @@ Abstract: ...
 
 _Titles are placeholder._
 
-- 2026-04-02\* | "Open code from a journal editor’s perspective - an open discussion" by Erik van Sebille ([:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/18))
+- 2026-04-02\* | "Open code from a journal submissions perspective" by Erik van Sebille ([:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/18))
+    - Abstract: Many academic journals require research code to be available when you submit a manuscript to them. But how do you organise that? Where do you put the code in such a way that you can still make changes to it, and that it is also archived for the future? In this talk, I will show how you can combine GitHub with a Zenodo workflow to create a DOI on every Release of your code. We will also have time for a more general discussion on the opportunities and difficulties of publishing code with manuscripts.
 - 2026-04-16\* | "Data processing with CDO" by Oliver Mehling ([:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/38))
 - 2026-04-30\* | TBD
 - 2026-05-14 | _None (Public holiday)_
