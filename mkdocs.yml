@@ -26,6 +26,3 @@ nav:
     - talks/index.md
     - contributing.md
     - resources.md
-plugins:
-    - mkdocs-jupyter:
-          ignore_h1_titles: True
