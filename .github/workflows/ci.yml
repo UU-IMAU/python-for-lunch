@@ -7,11 +7,10 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v4
-            - uses: actions/checkout@v4
             - uses: astral-sh/setup-uv@v4
               with:
                   version: "latest"
-            - run: uv run mkdocs build --strict
+            - run: uv run zensical build --clean
             - uses: actions/upload-artifact@v4
               with:
                   name: Website
