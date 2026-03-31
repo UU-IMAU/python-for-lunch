@@ -10,8 +10,8 @@ Here the process of creating a talk is detailed - from the talk's inception to t
 
 Do you have a step in your software workflow that could be improved with the right tool? Or maybe you often find yourself thinking, "There has to be a better way to do this!" If so, share your thoughts by opening an issue on GitHub or posting in Teams (or reach out directly to the Python for Lunch organiser). Describe your workflow, the challenges you’re facing, and any ideas you have - we’d love to discuss and explore potential solutions!
 
-[Post a GitHub issue]({{ repo_url }}/issues/new/choose){ .md-button target="\_blank" }
-[Discuss in Teams]({{ teams_url }}){ .md-button target="\_blank" }
+[Post a GitHub issue](https://github.com/UU-IMAU/python-for-lunch/issues/new/choose){ .md-button target="\_blank" }
+[Discuss in Teams](https://teams.microsoft.com/l/channel/19%3A11ca5db51d9541e8be4f9714b4fd26e1%40thread.tacv2/Python%20for%20Lunch?groupId=d0097cb1-d2f5-432f-aa73-532bd153058f&tenantId=d72758a0-a446-4e0f-a0aa-4bf95a4a10e7){ .md-button target="\_blank" }
 
 ## Writing and giving the talk
 

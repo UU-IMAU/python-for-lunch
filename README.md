@@ -4,9 +4,10 @@
 
 ## Building this website locally
 
-This website codebase uses `uv` and `mkdocs`. To get started (assuming you have `uv` installed):
+This website codebase uses `uv` and `zensical`. To get started (assuming you have `uv` installed):
 
 - clone this repo and `cd` into it
-- run `uv run mkdocs serve` to set up the environment and run the development server
+- run `uv run zensical serve` to set up the environment and run the development server
+- run `uv run zensical build` to build the site for production
 
 This project also uses `pre-commit` which you can optionally run locally (though not required as it's run in the cloud anyway).
