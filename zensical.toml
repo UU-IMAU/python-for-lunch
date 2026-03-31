@@ -1,0 +1,71 @@
+[project]
+
+# The site_name is shown in the page header and the browser window title
+site_name = "IMAU Python for Lunch"
+
+# The site_url is the canonical URL for your site
+site_url = "https://uu-imau.github.io/python-for-lunch/"
+
+# Navigation structure
+nav = [
+  { "Home" = "index.md" },
+  { "Talks" = "talks/index.md" },
+  { "Contributing" = "contributing.md" },
+  { "Resources" = "resources.md" },
+]
+
+# ----------------------------------------------------------------------------
+# Section for configuring theme options
+# ----------------------------------------------------------------------------
+[project.theme]
+
+# Use the classic Material for MkDocs look
+variant = "classic"
+
+# Favicon configuration
+favicon = "assets/logo.png"
+
+# Language setting
+language = "en"
+
+# Features configuration
+features = [
+    "content.action.edit",
+    "navigation.instant",
+    "navigation.path",
+    "navigation.top",
+    "navigation.tracking",
+]
+
+# Logo configuration
+logo = "assets/logo.png"
+
+# ----------------------------------------------------------------------------
+# Color palette configuration
+# ----------------------------------------------------------------------------
+[[project.theme.palette]]
+scheme = "default"
+primary = "green"
+accent = "green"
+
+# ----------------------------------------------------------------------------
+# Repository configuration
+# ----------------------------------------------------------------------------
+[project.repository]
+url = "https://github.com/UU-IMAU/python-for-lunch"
+edit_uri = "edit/main/docs/"
+
+# ----------------------------------------------------------------------------
+# Markdown extensions
+# ----------------------------------------------------------------------------
+[project.markdown_extensions]
+admonition = {}
+attr_list = {}
+
+[project.markdown_extensions.pymdownx]
+details = {}
+superfences = {}
+
+[project.markdown_extensions.pymdownx.emoji]
+emoji_index = "material.extensions.emoji.twemoji"
+emoji_generator = "material.extensions.emoji.to_svg"
