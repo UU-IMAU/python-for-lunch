@@ -27,6 +27,7 @@ Abstract: ...
 _Titles are placeholder._
 
 - 2026-04-16\* | "Data processing with CDO" by Oliver Mehling ([:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/38))
+    - Abstract: Climate Data Operators (CDO, https://code.mpimet.mpg.de/projects/cdo) is a versatile and fast (yet not too well-known) tool for processing gridded climate (model) data. In this talk, I’ll introduce CDO's powerful functionality for merging, averaging, regridding, etc. We’ll discuss the pros and cons compared to a purely xarray-based workflow, and explore ways to combine xarray and CDO, including the python-cdo package which provides an API to use CDO directly within Python.
 - 2026-04-30\* | TBD
 - 2026-05-14 | _None (Public holiday)_
 - 2026-05-28\* | TBD
