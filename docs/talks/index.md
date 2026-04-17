@@ -33,6 +33,7 @@ _Titles are placeholder._
 - 2026-05-28 | TBD
 - 2026-06-11 | TBD
 - 2026-06-25 | TBD
+- 2025-06-26 - 2025-09-02: Summer break (no talks)
 
 ## Prior
 
