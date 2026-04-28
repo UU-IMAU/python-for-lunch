@@ -15,7 +15,8 @@ For completed talks, add them using the following format
 
 ```
 ### YYYY-MM-DD | "TALK_TITLE" by PRESENTER
-[:octicons-video-16: Recording](link to video), [:material-presentation-play: Slideshow](link to slides), [:material-file-document: Supporting material](github_link to folder on main branch), [:material-github: Discussion](github_link to issue/PR)
+[:octicons-video-16: Recording](link to video), [:material-presentation-play: Slideshow](link to slides), [:material-file-document: Supporting material](github_link to folder on main branch
+), [:material-github: Discussion](github_link to issue/PR)
 
 Abstract: ...
 ```
@@ -26,7 +27,7 @@ Abstract: ...
 
 _Titles are placeholder._
 
-- 2026-04-30 | TBD
+- 2026-04-30 | None
 - 2026-05-14 | _None (Public holiday)_
 - 2026-05-28 | TBD
 - 2026-06-11 | TBD
