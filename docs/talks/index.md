@@ -137,12 +137,12 @@ _Titles are placeholder._
 
 ### 2026-04-16 | "Data processing with CDO" by Oliver Mehling
 [:octicons-video-16: Recording](https://youtu.be/qyImj5s58aw),
-<!-- [:material-presentation-play: Slideshow](TODO), -->
-<!-- [:material-file-document: Notebook](./TODO), -->
+[:material-presentation-play: Slideshow](./assets/20260416%20-%20CDO/slides.pdf),
+[:material-file-document: Notebook](./assets/20260416%20-%20CDO/cdo-notebook.ipynb),
 [:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/38)
 
 
-**Abstract**: Climate Data Operators (CDO, https://code.mpimet.mpg.de/projects/cdo) is a versatile and fast (yet not too well-known) tool for processing gridded climate (model) data. In this talk, I’ll introduce CDO's powerful functionality for merging, averaging, regridding, etc. We’ll discuss the pros and cons compared to a purely xarray-based workflow, and explore ways to combine xarray and CDO, including the python-cdo package which provides an API to use CDO directly within Python.
+**Abstract**: Climate Data Operators ([CDO](https://code.mpimet.mpg.de/projects/cdo)) is a versatile and fast (yet not too well-known) tool for processing gridded climate (model) data. In this talk, I’ll introduce CDO's powerful functionality for merging, averaging, regridding, etc. We’ll discuss the pros and cons compared to a purely xarray-based workflow, and explore ways to combine xarray and CDO, including the python-cdo package which provides an API to use CDO directly within Python.
 
 ### Archived talks
 
