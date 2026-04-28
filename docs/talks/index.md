@@ -15,10 +15,14 @@ For completed talks, add them using the following format
 
 ```
 ### YYYY-MM-DD | "TALK_TITLE" by PRESENTER
-[:octicons-video-16: Recording](link to video), [:material-presentation-play: Slideshow](link to slides), [:material-file-document: Supporting material](github_link to folder on main branch
-), [:material-github: Discussion](github_link to issue/PR)
 
-Abstract: ...
+[:octicons-video-16: Recording](link to video),
+[:material-presentation-play: Slideshow](link to slides),
+[:material-file-document: Supporting material](github_link to folder on main branch),
+[:material-file-document: Notebook](./python-tidbits.ipynb)
+[:material-github: Discussion](github_link to issue/PR)
+
+**Abstract**: ...
 ```
 
 -->
