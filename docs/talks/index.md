@@ -19,6 +19,7 @@ For completed talks, add them using the following format
 [:octicons-video-16: Recording](link to video),
 [:material-presentation-play: Slideshow](link to slides),
 [:material-file-document: Supporting material](github_link to folder on main branch),
+[:material-download: Notebook Download](github_link_to_download)
 [:material-file-document: Notebook](./python-tidbits.ipynb)
 [:material-github: Discussion](github_link to issue/PR)
 
@@ -54,7 +55,7 @@ _Titles are placeholder._
 
 ### 2025-03-27 | "Python Tidbits: Small Python tips, tricks, and packages you wish you knew about yesterday" by Nick Hodgskin
 
-[:octicons-video-16: Recording](https://youtu.be/X-F0fFFW-wo),[:material-file-document: Notebook](./python-tidbits.ipynb), [:material-download: Notebook Download](https://github.com/UU-IMAU/python-for-lunch/blob/main/docs/talks/python-tidbits.ipynb), [:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/21)
+[:octicons-video-16: Recording](https://youtu.be/X-F0fFFW-wo), [:material-download: Notebook Download](https://github.com/UU-IMAU/python-for-lunch/blob/main/docs/talks/python-tidbits.ipynb), [:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/21)
 
 **Abstract:** Sometimes the most impactful, timesaving features of a programming language are small tips, tricks, and patterns that you pick up along the way. When you finally come across them, you're left thinking "if only I knew about this earlier!". In this talk, we'll go through many of these lesser-known Python tricks - most of which are built directly into the Python language or standard library – to supercharge your Python skills. This talk will be fast paced covering a wide range of features, focusing on "tidbits" that can be explained in a few minutes each.
 
@@ -133,14 +134,12 @@ _Titles are placeholder._
 
 **Abstract:** Many academic journals require research code to be available when you submit a manuscript to them. But how do you organise that? Where do you put the code in such a way that you can still make changes to it, and that it is also archived for the future? In this talk, I will show how you can combine GitHub with a Zenodo workflow to create a DOI on every Release of your code. We will also have time for a more general discussion on the opportunities and difficulties of publishing code with manuscripts.
 
-
-
 ### 2026-04-16 | "Data processing with CDO" by Oliver Mehling
+
 [:octicons-video-16: Recording](https://youtu.be/qyImj5s58aw),
 [:material-presentation-play: Slideshow](./assets/20260416%20-%20CDO/slides.pdf),
-[:material-file-document: Notebook](./assets/20260416%20-%20CDO/cdo-notebook.ipynb),
+[:material-download: Notebook Download](https://github.com/UU-IMAU/python-for-lunch/blob/main/docs/talks/assets/20260416%20-%20CDO/cdo-notebook.ipynb),
 [:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/38)
-
 
 **Abstract**: Climate Data Operators ([CDO](https://code.mpimet.mpg.de/projects/cdo)) is a versatile and fast (yet not too well-known) tool for processing gridded climate (model) data. In this talk, I’ll introduce CDO's powerful functionality for merging, averaging, regridding, etc. We’ll discuss the pros and cons compared to a purely xarray-based workflow, and explore ways to combine xarray and CDO, including the python-cdo package which provides an API to use CDO directly within Python.
 
