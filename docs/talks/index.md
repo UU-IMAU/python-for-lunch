@@ -15,9 +15,14 @@ For completed talks, add them using the following format
 
 ```
 ### YYYY-MM-DD | "TALK_TITLE" by PRESENTER
-[:octicons-video-16: Recording](link to video), [:material-presentation-play: Slideshow](link to slides), [:material-file-document: Supporting material](github_link to folder on main branch), [:material-github: Discussion](github_link to issue/PR)
 
-Abstract: ...
+[:octicons-video-16: Recording](link to video),
+[:material-presentation-play: Slideshow](link to slides),
+[:material-file-document: Supporting material](github_link to folder on main branch),
+[:material-file-document: Notebook](./python-tidbits.ipynb)
+[:material-github: Discussion](github_link to issue/PR)
+
+**Abstract**: ...
 ```
 
 -->
@@ -26,9 +31,7 @@ Abstract: ...
 
 _Titles are placeholder._
 
-- 2026-04-16 | "Data processing with CDO" by Oliver Mehling ([:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/38))
-    - Abstract: Climate Data Operators (CDO, https://code.mpimet.mpg.de/projects/cdo) is a versatile and fast (yet not too well-known) tool for processing gridded climate (model) data. In this talk, I’ll introduce CDO's powerful functionality for merging, averaging, regridding, etc. We’ll discuss the pros and cons compared to a purely xarray-based workflow, and explore ways to combine xarray and CDO, including the python-cdo package which provides an API to use CDO directly within Python.
-- 2026-04-30 | TBD
+- 2026-04-30 | None
 - 2026-05-14 | _None (Public holiday)_
 - 2026-05-28 | TBD
 - 2026-06-11 | TBD
@@ -129,6 +132,17 @@ _Titles are placeholder._
 [:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/18)
 
 **Abstract:** Many academic journals require research code to be available when you submit a manuscript to them. But how do you organise that? Where do you put the code in such a way that you can still make changes to it, and that it is also archived for the future? In this talk, I will show how you can combine GitHub with a Zenodo workflow to create a DOI on every Release of your code. We will also have time for a more general discussion on the opportunities and difficulties of publishing code with manuscripts.
+
+
+
+### 2026-04-16 | "Data processing with CDO" by Oliver Mehling
+[:octicons-video-16: Recording](https://youtu.be/qyImj5s58aw),
+[:material-presentation-play: Slideshow](./assets/20260416%20-%20CDO/slides.pdf),
+[:material-file-document: Notebook](./assets/20260416%20-%20CDO/cdo-notebook.ipynb),
+[:material-github: Discussion](https://github.com/UU-IMAU/python-for-lunch/issues/38)
+
+
+**Abstract**: Climate Data Operators ([CDO](https://code.mpimet.mpg.de/projects/cdo)) is a versatile and fast (yet not too well-known) tool for processing gridded climate (model) data. In this talk, I’ll introduce CDO's powerful functionality for merging, averaging, regridding, etc. We’ll discuss the pros and cons compared to a purely xarray-based workflow, and explore ways to combine xarray and CDO, including the python-cdo package which provides an API to use CDO directly within Python.
 
 ### Archived talks
 
