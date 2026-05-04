@@ -32,9 +32,8 @@ For completed talks, add them using the following format
 
 _Titles are placeholder._
 
-- 2026-04-30 | None
 - 2026-05-14 | _None (Public holiday)_
-- 2026-05-28 | TBD
+- 2026-05-28 | _None_ (PhD defense)
 - 2026-06-11 | TBD
 - 2026-06-25 | TBD
 - 2025-06-26 - 2025-09-02: Summer break (no talks)
