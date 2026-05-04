@@ -33,6 +33,7 @@ For completed talks, add them using the following format
 _Titles are placeholder._
 
 - 2026-05-14 | _None (Public holiday)_
+- _2026-05-21_ | "AI-tools for scientific Literature Search and Writing" by Anneke Vries
 - 2026-05-28 | _None_ (PhD defense)
 - 2026-06-11 | TBD
 - 2026-06-25 | TBD
