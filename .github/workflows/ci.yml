@@ -11,7 +11,7 @@ jobs:
               with:
                   version: "latest"
             - run: uv run zensical build --clean
-            - uses: actions/upload-artifact@v4
+            - uses: actions/upload-artifact@v7
               with:
                   name: Website
                   path: ./site
