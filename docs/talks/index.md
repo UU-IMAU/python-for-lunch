@@ -163,6 +163,14 @@ _Titles are placeholder._
 
 **Abstract**: Climate Data Operators ([CDO](https://code.mpimet.mpg.de/projects/cdo)) is a versatile and fast (yet not too well-known) tool for processing gridded climate (model) data. In this talk, I’ll introduce CDO's powerful functionality for merging, averaging, regridding, etc. We’ll discuss the pros and cons compared to a purely xarray-based workflow, and explore ways to combine xarray and CDO, including the python-cdo package which provides an API to use CDO directly within Python.
 
+### - 2026-05-21 | "AI-tools for scientific Literature Search and Writing" by Anneke Vries
+
+[:material-presentation-play: Slideshow](./assets/20260521%20-%20ai-tools/slides.pdf)
+
+**Abstract**: We will focus on several AI tools designed to enhance academic research. We'll focus on improving writing, conducting efficient literature searches, managing references, and even translating scientific texts. We first discuss the different types of tools, what their differences are and what hallucinations are. We will walk through academic tools like Jenni, NotebookLM, Consensus, Research Rabbit, Perplexity, and Elicit. We will cover European, Dutch and journal specific policy regarding AI use for scientific writing/literature research. We'll end with an opportunity for discussion and to share experiences. The talk touches on responsible AI usage, privacy, and how to safeguard your data when using these tools. By the end, participants will know how to use AI tools to assist in writing, literature discovery, and understand best practices for ethical use and data security.
+
+The talk is based on a two-hour workshop by Dr. Olga Minaeva, trainer of innovative digital techniques from the NWO-I Digital Competence Center.
+
 ### Archived talks
 
 [Archived talks](https://github.com/UU-IMAU/Python-for-lunch-Notebooks/blob/main/archived)
