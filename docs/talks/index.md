@@ -32,7 +32,7 @@ For completed talks, add them using the following format
 
 _Titles are placeholder._
 
-- 2025-06-26 - 2025-09-02: Summer break (no talks)
+- 2026-06-26 - 2026-09-02: Summer break (no talks)
 
 ## Prior
 
@@ -162,7 +162,7 @@ _Titles are placeholder._
 
 **Abstract**: Climate Data Operators ([CDO](https://code.mpimet.mpg.de/projects/cdo)) is a versatile and fast (yet not too well-known) tool for processing gridded climate (model) data. In this talk, I’ll introduce CDO's powerful functionality for merging, averaging, regridding, etc. We’ll discuss the pros and cons compared to a purely xarray-based workflow, and explore ways to combine xarray and CDO, including the python-cdo package which provides an API to use CDO directly within Python.
 
-### - 2026-05-21 | "AI-tools for scientific Literature Search and Writing" by Anneke Vries
+### 2026-05-21 | "AI-tools for scientific Literature Search and Writing" by Anneke Vries
 
 [:material-presentation-play: Slideshow](./assets/20260521%20-%20ai-tools/slides.pdf)
 
