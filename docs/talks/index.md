@@ -40,7 +40,7 @@ _Titles are placeholder._
 - 2026-11-12: TBD
 - 2026-11-13\* - 2027-02-03: Holiday break
 
-\*May have talks on 2026-11-26 and 2026-12-10
+\*May also have talks on 2026-11-26 and 2026-12-10
 
 ## Prior
 
