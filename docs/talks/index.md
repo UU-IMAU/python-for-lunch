@@ -33,6 +33,15 @@ For completed talks, add them using the following format
 _Titles are placeholder._
 
 - 2026-06-26 - 2026-09-02: Summer break (no talks)
+- 2026-09-03: TBD
+- 2026-09-17: TBD
+- 2026-10-01: TBD
+- 2026-10-15: TBD
+- 2026-10-29: TBD
+- 2026-11-12: TBD
+- 2026-11-13\* - 2027-02-03: Holiday break
+
+\*May have talks on 2026-11-26 and 2026-12-10
 
 ## Prior
 
