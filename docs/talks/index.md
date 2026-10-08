@@ -2,8 +2,6 @@
 
 Below you can see a list of prior talks (chronological order), as well as upcoming talks, and their resources. You can click [here](https://github.com/UU-IMAU/python-for-lunch/issues?q=is%3Aissue+is%3Aopen+label%3Atalk-suggestion) for a list of all suggested talks.
 
-We try to have a talk every other Thursday at 12pm.
-
 <!--
 
 For upcoming talks, add them using the following format
@@ -30,17 +28,7 @@ For completed talks, add them using the following format
 
 ## Upcoming
 
-_Titles are placeholder._
-
-- 2026-06-26 - 2026-09-16: Summer break (no talks)
-- 2026-09-17: TBD
-- 2026-10-01: TBD
-- 2026-10-15: None (BBOS)
-- 2026-10-29: TBD
-- 2026-11-12: TBD
-- 2026-11-13\* - 2027-02-03: Holiday break
-
-\*May also have talks on 2026-11-26 and 2026-12-10
+There are currently no upcoming talks scheduled. Python for Lunch is looking for a new organiser - see the [homepage](../index.md) for more information.
 
 ## Prior
 
