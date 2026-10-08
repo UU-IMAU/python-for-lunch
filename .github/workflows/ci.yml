@@ -1,4 +1,4 @@
-name: Build test mkdocs site
+name: Build test Zensical site
 on:
     pull_request:
 

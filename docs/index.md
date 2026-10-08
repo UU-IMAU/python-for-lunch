@@ -1,5 +1,15 @@
 # Python for Lunch!
 
+!!! warning "Python for Lunch is looking for a new organiser"
+
+    Nick Hodgskin, who has been organising Python for Lunch, is leaving Utrecht University at the end of November 2026. **Python for Lunch will need a new organiser to continue**, and there are currently no talks scheduled.
+
+    Now that IMAU is based in the VMA, many of our new officemates and groups on neighbouring floors use Xarray and (raster) geospatial tools. Making Python for Lunch more accessible to these groups would be a great way to expand the reach of the series. One option is to rebrand/restart the initiative as a "local chapter" of the [Pangeo](https://pangeo.io/) community, since "Python for Lunch" is a bit ambiguous and having "IMAU" in the name isn't ideal for reaching other groups.
+
+    Keen to discuss what this could look like? Reach out to Erik van Sebille (**e.vansebille at uu.nl** ) who can also CC in Nick's personal email.
+
+    Thank you for your interest in all the talks over the last year! The recordings and materials remain available on the [talks page](./talks/index.md).
+
 > Python for Lunch is a space where researchers and students at IMAU can exchange ideas related to Scientific Python and discuss [open science](https://en.wikipedia.org/wiki/Open_science) best practices.
 
 For those of you who were around at the end of 2020, you'll remember that we used to have Python for Lunch talks. Well, they're coming back, and with a new lick of paint!
